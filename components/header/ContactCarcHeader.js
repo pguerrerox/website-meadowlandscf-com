@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import ContactCard from '../css/ContactCard.css';
-import SocialCard from '../css/SocialCard.css';
+import ContactCard from '../../css/ContactCard.css';
+import SocialCard from '../../css/SocialCard.css';
 
 // the type prop will determine the displayed data
 // the data prop comes all the way down from the page
