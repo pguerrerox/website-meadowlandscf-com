@@ -1,0 +1,23 @@
+.CardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  /* background-color: tan; */
+}
+.Card-imgContainer{
+  padding-right: 15px;
+  width: 45px;
+  height: 45px;
+  color: #b7b7b7;
+}
+.Card-textContainer p{
+  margin: 0;
+}
+.upperText{
+  font-size: 16px;
+}
+.lowerText{
+  font-size: 14px;
+}

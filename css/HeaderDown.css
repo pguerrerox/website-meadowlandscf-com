@@ -1,0 +1,18 @@
+.HeaderDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.container{
+  display: inherit;
+  justify-content: center;
+  width: 100%;
+}
+.HeaderDown-Contact{
+  display: inherit;
+  margin: 0 25px;
+  padding: 20px 0;
+  width: 100%;
+  justify-content: space-between;
+}
