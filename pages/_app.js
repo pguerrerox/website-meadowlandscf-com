@@ -4,7 +4,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
 
-
 library.add(fas, fab);
 
 function MyApp({ Component, pageProps }) {

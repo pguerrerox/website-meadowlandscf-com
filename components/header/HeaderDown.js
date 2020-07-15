@@ -1,21 +1,20 @@
-import ContactCardHeader from './ContactCarcHeader';
+// imported components
+import HeaderContactCard from './HeaderContactCard';
 
-import style from '../../css/HeaderDown.css';
-
+// exported component
 export default function HeaderDown(props) {
-
   return (
-    <div className='HeaderDown'>
+    <>
+    <section className='HeaderDown'>
       <div className='container'>
-        <section className='HeaderDown-Contact'>
-          <ContactCardHeader className='Card' data={props.data} type='location'/>
-          <ContactCardHeader className='Card' data={props.data} type='hours'/>
-          <ContactCardHeader className='Card' data={props.data} type='email'/>
-          <ContactCardHeader className='Card' data={props.data} social/>
-        </section>
+        <div className='row'>
+          <HeaderContactCard data={props.data} type='location'/>
+          <HeaderContactCard data={props.data} type='hours'/>
+          <HeaderContactCard data={props.data} type='email'/>
+          <HeaderContactCard data={props.data} social/>
+        </div>
       </div>
-
-      <style jsx>{style}</style>
-    </div>
+    </section>
+    </>
   )
 }

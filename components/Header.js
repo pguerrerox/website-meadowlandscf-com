@@ -1,11 +1,17 @@
-import HeaderUp from './header/HeaderUp';
+// imported components
+import HeaderTop from './header/HeaderTop';
+import HeaderNavbar from './header/HeaderNavbar';
 import HeaderDown from './header/HeaderDown';
 
+// exported component
 export default function Header (props){
   return(
+    <>
     <div>
-      <HeaderUp />
+      <HeaderTop />
+      <HeaderNavbar />
       <HeaderDown data={props.data} />
     </div>
+    </>
   )
 }
