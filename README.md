@@ -47,5 +47,6 @@ needs to be added to the `next.config.js` file
 ```
 
 - Including Bootstrap
-I decided to use Bootstrap to style this project, since I needed the practice, why not. Had to refactor all the code before v0.1.2 and 
+
+Decided to use Bootstrap to style this project, since I needed the practice, why not. Had to refactor all the code before v0.1.2 and 
 challenge #1 do no apply anymore. Also, will have to include SASS to the project to be able to modify some Bootstrap Defaults.
