@@ -1,18 +1,21 @@
 {
   "location":{
     "logo":"globe",
-    "topLine":"klkNewyork, USA",
-    "botLine":"Flat 201, Reynolds Neck Str"
+    "topLine":"Newyork, USA",
+    "botLine":"Flat 201, Reynolds",
+    "link":"map"
   },
   "hours":{
     "logo":"phone-alt",
-    "topLine":"+1 324 123 4567",
-    "botLine":"Monday - Friday: 9am - 5pm"
+    "topLine":"324 123 4567",
+    "botLine":"Mon - Fri: 9 / 5",
+    "link":"tel:13241234567"
   },
   "email":{
     "logo":"envelope",
-    "topLine":"support@meadowlandscf.com",
-    "botLine":"Get in contact"
+    "topLine":"support email",
+    "botLine":"Get in contact",
+    "link":"mailto:someone@example.com"
   },
   "social":{
     "facebook": {

@@ -2,16 +2,16 @@
 export default function HeaderTop(props) {
   return (
     <>
-      <section className='HeaderTop'>
+      <section className='HeaderTop bg-dark text-light'>
         <div className='container d-flex justify-content-center py-1'>
-          <span className=''>Hablamos en espanol.</span>
+          <span className=''>Hablamos en espanol</span>
         </div>
       </section>
 
       <style jsx>{`
       .HeaderTop {
-        background: #26272b;
-        color: gray
+        /* background: #26272b; */
+        /* color: gray */
       }
       `}</style>
     </>

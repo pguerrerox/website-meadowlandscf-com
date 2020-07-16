@@ -19,10 +19,10 @@ export default function ContactCardHeader(props){
   }
 
   return (
-    props.social 
+    props.social
     ?
-    <div className='col-xl-3 col-lg-4 mx-md-auto px-2 py-4'>
-      <div className='socials d-flex flex-row justify-content-center align-items-center h-100'>
+    <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 py-2 d-flex justify-content-center'>
+      <div className='d-flex flex-row justify-content-center align-items-center'>
       {
       socialIcons.map( (x) => {
         return (
@@ -34,13 +34,15 @@ export default function ContactCardHeader(props){
       </div>
     </div>
     :
-    <div className='col-xl-3 col-lg-4 d-flex flex-row justify-content-center px-2 py-4 CardContainer'>
-      <div className='d-flex align-items-center awesomeIcon'>
-        <FontAwesomeIcon icon={data.logo} style={iconStyle}/>
-      </div>
-      <div className='pl-3'>
-        <h4>{data.topLine}</h4>
-        <span className='text-nowrap'>{data.botLine}</span>
+    <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 py-2 d-flex justify-content-center'>
+      <div className='d-flex flex-row justify-content-center align-items-center'>
+        <div className='d-flex align-items-center awesomeIcon'>
+          <FontAwesomeIcon icon={data.logo} style={iconStyle}/>
+        </div>
+        <div className='pl-3'>
+          <h5 className='m-0 p-0'><a href={data.link} className='text-dark text-decoration-none'>{data.topLine}</a></h5>
+          <span className='text-nowrap'>{data.botLine}</span>
+        </div>
       </div>
     </div>
   )
