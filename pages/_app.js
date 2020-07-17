@@ -1,4 +1,4 @@
-// import App from 'next/app'
+// importing FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -6,7 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fas, fab);
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
@@ -21,5 +21,3 @@ function MyApp({ Component, pageProps }) {
 //
 //   return { ...appProps }
 // }
-
-export default MyApp

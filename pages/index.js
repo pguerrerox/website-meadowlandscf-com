@@ -1,17 +1,21 @@
-// imported modules
+// importing node modules
 import fs from 'fs';
 import path from 'path';
 
-// imported components
+// importing components
 import DefaultLayout from '../layouts/LayoutDefault';
 
-// exported component
+// exporting component
 export default function Home(props) {
   let data = JSON.parse(props.data)
   
   return (
-    <DefaultLayout pageTitle="Home" data= {data}>
-    </DefaultLayout>
+    <>
+      <DefaultLayout pageTitle="Home" data= {data}>
+      
+      
+      </DefaultLayout>
+    </>
   )
 }
 
