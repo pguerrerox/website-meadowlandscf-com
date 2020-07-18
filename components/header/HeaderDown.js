@@ -1,11 +1,11 @@
-// imported components
+// importing components
 import HeaderContactCard from './HeaderContactCard';
 
-// exported component
+// exporting component
 export default function HeaderDown(props) {
   return (
     <>
-    <section className='HeaderDown bg-light'>
+    <section className='HeaderDown bg-light py-3 bg-light'>
       <div className='container'>
         <div className='row d-flex justify-content-center'>
           <HeaderContactCard data={props.data} type='location'/>

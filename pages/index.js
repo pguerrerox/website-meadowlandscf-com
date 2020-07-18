@@ -4,6 +4,9 @@ import path from 'path';
 
 // importing components
 import DefaultLayout from '../layouts/LayoutDefault';
+import Carrousel from '../components/Carrousel';
+import BannerAbout from '../components/BannerAbout';
+
 
 // exporting component
 export default function Home(props) {
@@ -12,8 +15,8 @@ export default function Home(props) {
   return (
     <>
       <DefaultLayout pageTitle="Home" data= {data}>
-      
-      
+        <Carrousel/>
+        <BannerAbout/>
       </DefaultLayout>
     </>
   )
