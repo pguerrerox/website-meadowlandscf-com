@@ -13,7 +13,6 @@ export default function Carrousel(props) {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="/carrousel/cocina.jpeg" className="d-block w-100" alt="..."/>
-            <h1 className='text-primary z-index-9000'>Hola</h1>
           </div>
           <div className="carousel-item">
             <img src="/carrousel/dormitorio.jpeg" className="d-block w-100" alt="..."/>

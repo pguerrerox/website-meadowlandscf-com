@@ -6,7 +6,8 @@ import path from 'path';
 import DefaultLayout from '../layouts/LayoutDefault';
 import Carrousel from '../components/Carrousel';
 import BannerAbout from '../components/BannerAbout';
-
+import BannerProcess from '../components/BannerProcess';
+import BannerServices from '../components/BannerServices';
 
 // exporting component
 export default function Home(props) {
@@ -14,9 +15,11 @@ export default function Home(props) {
   
   return (
     <>
-      <DefaultLayout pageTitle="Home" data= {data}>
-        <Carrousel/>
-        <BannerAbout/>
+      <DefaultLayout pageTitle="Home" data={data} lang={props.lang} langChange={props.langChange}>
+        <Carrousel />
+        <BannerAbout data={data} lang={props.lang}/>
+        <BannerProcess data={data} lang={props.lang}/>
+        <BannerServices />
       </DefaultLayout>
     </>
   )
@@ -25,7 +28,7 @@ export default function Home(props) {
 // fetching data
 export async function getStaticProps(){
   const basepath = path.join(process.cwd(), 'data');
-  const filepath = path.join(basepath, 'contact.json');
+  const filepath = path.join(basepath, 'index.json');
   const data = fs.readFileSync(filepath, 'utf8');
   
   return {
