@@ -15,7 +15,7 @@ export default function Home(props) {
 
   return (
     <>
-      <Carrousel />
+      <Carrousel data={data.carrousel} />
       <BannerAbout data={data.bannerabout} />
       <BannerProcess data={data.bannerprocess} />
       <BannerServices data={data.bannerservices}/>

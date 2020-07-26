@@ -1,5 +1,31 @@
 {
   "en": {
+    "carrousel":[
+      {
+        "image":"cocina",
+        "positionbackground": "center center",
+        "caption": "counter top",
+        "subcaption": "perfect for... algo mas...",
+        "positioncaptiontop": {"top": "550px"},
+        "positioncaptionleft":{"left": "10%"}
+      },
+      {
+        "image":"dormitorio",
+        "positionbackground": "center center",
+        "caption": "Camilla y Vainilla",
+        "subcaption": "una vaina bacana!",
+        "positioncaptiontop": {"top": "250px"},
+        "positioncaptionleft":{"left": "25%"}
+      },
+      {
+        "image":"sotano",
+        "positionbackground": "center bottom",
+        "caption": "Espacio y pisos, sontaillo",
+        "subcaption": "pisa bien el piso...",
+        "positioncaptiontop": {"top": "350px"},
+        "positioncaptionleft":{"left": "20%"}
+      }
+    ],
     "bannerabout": {
       "header": "a bit about us",
       "leftColumn": {
@@ -55,6 +81,32 @@
     }
   },
   "es": {
+    "carrousel":[
+      {
+        "image":"cocina",
+        "positionbackground": "center center",
+        "caption": "counter top",
+        "subcaption": "perfect for... algo mas...",
+        "positioncaptiontop": {"top": "550px"},
+        "positioncaptionleft":{"left": "10%"}
+      },
+      {
+        "image":"dormitorio",
+        "positionbackground": "center center",
+        "caption": "Camilla y Vainilla",
+        "subcaption": "una vaina bacana!",
+        "positioncaptiontop": {"top": "250px"},
+        "positioncaptionleft":{"left": "25%"}
+      },
+      {
+        "image":"sotano",
+        "positionbackground": "center bottom",
+        "caption": "Espacio y pisos, sontaillo",
+        "subcaption": "pisa bien el piso...",
+        "positioncaptiontop": {"top": "350px"},
+        "positioncaptionleft":{"left": "20%"}
+      }
+    ],
     "bannerabout": {
       "header": "un poco sobre nosotros",
       "leftColumn": {

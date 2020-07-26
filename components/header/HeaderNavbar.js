@@ -10,7 +10,7 @@ export default function HeaderNavbar(props) {
 
   return (
     <>
-    <section className='HeaderMid bg-white'>
+    <section className='HeaderMid bg-white sticky-top '>
       <div className='container'>
         <nav className='navbar navbar-expand-lg py-2 row'>
           <div className='navbar-brand'>
