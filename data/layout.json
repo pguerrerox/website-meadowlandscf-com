@@ -1,0 +1,150 @@
+{
+  "en": {
+    "header":{
+      "navbar": [
+        {"page": "home", "link": "/"},
+        {"page": "about", "link": "/about"},
+        {"page": "services", "link": "/services"},
+        {"page": "contact", "link": "/contact"}
+      ],
+      "headerdown": {
+        "location":{
+          "logo":"globe",
+          "topLine":"Newyork, USA",
+          "botLine":"Flat 201, Reynolds",
+          "link":"map"
+        },
+        "hours":{
+          "logo":"phone-alt",
+          "topLine":"324 123 4567",
+          "botLine":"Mon - Fri: 9 / 5",
+          "link":"tel:13241234567"
+        },
+        "email":{
+          "logo":"envelope",
+          "topLine":"support email",
+          "botLine":"Get in contact",
+          "link":"mailto:someone@example.com"
+        },
+        "social":{
+          "facebook": {
+            "logo": "facebook-square",
+            "link": ""
+          },
+          "instagram": {
+            "logo": "instagram",
+            "link": ""
+          },
+          "linkedin": {
+            "logo": "linkedin",
+            "link": ""
+          }
+        }
+      }
+    },
+    "footer":{
+      "left":{
+        "logo":"logo_2",
+        "logoAlt": "Company Logo",
+        "slogan": "Building your own home is bla bla bla bla bla,."
+      },
+      "center":{
+        "title":"site map",
+        "sitemap":[
+          {"page": "home", "link": "/"},
+          {"page": "about us", "link": "/about"},
+          {"page": "our services", "link": "/services"},
+          {"page": "contact us", "link": "/contact"}
+        ]
+      },
+      "right":{
+        "title":"Contact Information",
+        "items":[
+          {"title": "Address", "text":"Newyork, USA Flat 201, Reynolds", "link":"map"},
+          {"title": "Telephone", "text":"123-123-1234", "link":"tel"},
+          {"title": "Email", "text": "emaislsld", "link":"mailto"}
+        ]
+      },
+      "copyright":"Copyright © 2020 - Meadowlands Construction and Flips LLC.",
+      "developer":{
+        "uno": "Developed with ⚒ by ",
+        "dos": "Duramente Web Studio",
+        "link": "https://duramente.com"
+      }
+    }
+  },
+  "es": {
+    "header":{
+      "navbar": [
+        {"page": "inicio", "link": "/"},
+        {"page": "acerca", "link": "/about"},
+        {"page": "servicios", "link": "/services"},
+        {"page": "contacto", "link": "/contact"}
+      ],
+      "headerdown": {
+        "location":{
+          "logo":"globe",
+          "topLine":"Newyork, USA",
+          "botLine":"Flat 201, Reynolds",
+          "link":"map"
+        },
+        "hours":{
+          "logo":"phone-alt",
+          "topLine":"324 123 4567",
+          "botLine":"Mon - Fri: 9 / 5",
+          "link":"tel:13241234567"
+        },
+        "email":{
+          "logo":"envelope",
+          "topLine":"support email",
+          "botLine":"Get in contact",
+          "link":"mailto:someone@example.com"
+        },
+        "social":{
+          "facebook": {
+            "logo": "facebook-square",
+            "link": ""
+          },
+          "instagram": {
+            "logo": "instagram",
+            "link": ""
+          },
+          "linkedin": {
+            "logo": "linkedin",
+            "link": ""
+          }
+        }
+      }
+    },
+    "footer":{
+      "left":{
+        "logo":"logo_2",
+        "logoAlt": "Logo de la Compañia",
+        "slogan": "Construir tu propia casa es bla bla bla bla bla,."
+      },
+      "center":{
+        "title":"mapa del sitio",
+        "sitemap":[
+          {"page": "Inicio", "link": "/"},
+          {"page": "acerca de", "link": "/about"},
+          {"page": "nuestros servicios", "link": "/services"},
+          {"page": "contactanos", "link": "/contact"}
+        ]
+      },
+      "right":{
+        "title":"información de contacto",
+        "items":[
+          {"title": "Dirección", "text":"Newyork, USA Flat 201, Reynolds", "link":"map"},
+          {"title": "Telefono", "text":"123-123-1234", "link":"tel"},
+          {"title": "Email", "text": "emaislsld", "link":"mailto"}
+        ]
+      },
+      "copyright":"Copyright © 2020 - Meadowlands Construction and Flips LLC.",
+      "developer":{
+        "uno": "Desarrollado con ⚒ por ",
+        "dos": "Duramente Web Studio",
+        "link": "https://duramente.com"
+      }
+    }
+  }
+}

@@ -66,3 +66,8 @@ module.exports = withSass({
   },
 })
 ```
+
+- React Function components
+
+Interesting enough, functional components run functions (like onlick events) with the context from there defined parent. 
+(is this a reach behavior? or next.js mod?)

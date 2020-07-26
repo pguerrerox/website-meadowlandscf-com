@@ -3,17 +3,19 @@ import Head from 'next/head';
 
 // importing components
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // importing custom bootstrap
 import "../styles/custom.scss";
 
 export default function LayoutDefault(props){
   const defaultTitle = 'Meadowlands Construction & Flip';
+  const pageTitle = props.children.type.name;
 
   return(
     <>
     <Head>
-      <title>{props.pageTitle ? (props.pageTitle + ' - ' + defaultTitle) : defaultTitle}</title>
+      <title>{pageTitle ? (pageTitle + ' - ' + defaultTitle) : defaultTitle}</title>
 
       {/* viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,9 +35,9 @@ export default function LayoutDefault(props){
       /> */}
     </Head>
 
-    <Header data={props.data[props.lang]} langChange={props.langChange} lang={props.lang}/>
+    <Header data={props.data[props.lang].header} lang={props.lang} langChange={props.langChange} />
     {props.children}
-    {/* <Footer /> */}
+    <Footer data={props.data[props.lang].footer}/>
 
     {/* bootstrap scripts */}
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossOrigin="anonymous"></script>

@@ -1,47 +1,5 @@
 {
   "en": {
-    "navbar": {
-      "navbar": [
-        {"page": "home", "link": "/"},
-        {"page": "about", "link": "/about"},
-        {"page": "services", "link": "/services"},
-        {"page": "contact", "link": "/contact"}
-      ]
-    },
-    "headerdown": {
-      "location":{
-        "logo":"globe",
-        "topLine":"Newyork, USA",
-        "botLine":"Flat 201, Reynolds",
-        "link":"map"
-      },
-      "hours":{
-        "logo":"phone-alt",
-        "topLine":"324 123 4567",
-        "botLine":"Mon - Fri: 9 / 5",
-        "link":"tel:13241234567"
-      },
-      "email":{
-        "logo":"envelope",
-        "topLine":"support email",
-        "botLine":"Get in contact",
-        "link":"mailto:someone@example.com"
-      },
-      "social":{
-        "facebook": {
-          "logo": "facebook-square",
-          "link": ""
-        },
-        "instagram": {
-          "logo": "instagram",
-          "link": ""
-        },
-        "linkedin": {
-          "logo": "linkedin",
-          "link": ""
-        }
-      }
-    },
     "bannerabout": {
       "header": "a bit about us",
       "leftColumn": {
@@ -89,70 +47,14 @@
       ]
     },
     "bannerservices":{
-      "header":"our servicesprocess",
-      "steps":[
-        {
-          "h4": "Planning & Research",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Design & Ideas",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Specialized Projects",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Final Outputs",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        }
-      ]
+      "header":"our services",
+      "image": "content-1",
+      "h4": "We offer the most complete package!",
+      "p": "We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
+      "button": "explore our services"
     }
   },
   "es": {
-    "navbar": {
-      "navbar": [
-        {"page": "inicio", "link": "/"},
-        {"page": "acerca", "link": "/about"},
-        {"page": "servicios", "link": "/services"},
-        {"page": "contacto", "link": "/contact"}
-      ]
-    },
-    "headerdown": {
-      "location":{
-        "logo":"globe",
-        "topLine":"Newyork, USA",
-        "botLine":"Flat 201, Reynolds",
-        "link":"map"
-      },
-      "hours":{
-        "logo":"phone-alt",
-        "topLine":"324 123 4567",
-        "botLine":"Mon - Fri: 9 / 5",
-        "link":"tel:13241234567"
-      },
-      "email":{
-        "logo":"envelope",
-        "topLine":"Correo de soporte",
-        "botLine":"Contactanos",
-        "link":"mailto:someone@example.com"
-      },
-      "social":{
-        "facebook": {
-          "logo": "facebook-square",
-          "link": ""
-        },
-        "instagram": {
-          "logo": "instagram",
-          "link": ""
-        },
-        "linkedin": {
-          "logo": "linkedin",
-          "link": ""
-        }
-      }
-    },
     "bannerabout": {
       "header": "un poco sobre nosotros",
       "leftColumn": {
@@ -198,6 +100,13 @@
           "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
         }
       ]
+    },
+    "bannerservices":{
+      "header":"nuestros servicios",
+      "image": "content-1",
+      "h4": "Ofrecemos un paquete completo!",
+      "p": "Estamos comprometidos..... We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
+      "button": "explora nuestros servicios"
     }
   }
 }

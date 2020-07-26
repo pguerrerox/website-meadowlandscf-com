@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 // exporting component
 export default function HeaderNavbar(props) {
-  const menuItems = props.data.navbar
+  const menuItems = props.data
 
   return (
     <>
