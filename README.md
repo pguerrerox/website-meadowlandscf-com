@@ -8,6 +8,7 @@ This is a static website build with a React Framework `Next.js` and deploy on `G
 - React.js
 - Next.js 
 - Bootstrap
+- Sass
 
 Happy coding!
 
@@ -46,7 +47,27 @@ needs to be added to the `next.config.js` file
  }
 ```
 
-- Including Bootstrap
+- Including Bootstrap/Sass
 
 Decided to use Bootstrap to style this project, since I needed the practice, why not. Had to refactor all the code before v0.1.2 and 
 challenge #1 do no apply anymore. Also, will have to include SASS to the project to be able to modify some Bootstrap Defaults.
+
+Included Sass and modified the default color to the project's colors.
+
+Had to install '@zeit/next-sass' and set the config file to:
+```bash
+module.exports = withSass({
+  webpack: (config) => {
+    // Fixes npm packages that depend on `fs` module
+    config.node = {
+      fs: 'empty'
+    }
+    return config
+  },
+})
+```
+
+- React Function components
+
+Interesting enough, functional components run functions (like onlick events) with the context from there defined parent. 
+(is this a reach behavior? or next.js mod?)

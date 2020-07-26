@@ -1,17 +1,18 @@
-// imported components
+// importing react stuff
+import React, {Component} from 'react';
+
+// importing components
 import HeaderTop from './header/HeaderTop';
 import HeaderNavbar from './header/HeaderNavbar';
 import HeaderDown from './header/HeaderDown';
 
-// exported component
-export default function Header (props){
+// exporting component
+export default function Header(props){
   return(
     <>
-    <div>
-      <HeaderTop />
-      <HeaderNavbar />
-      <HeaderDown data={props.data} />
-    </div>
+    <HeaderTop langChange={props.langChange} lang={props.lang}/>
+    <HeaderNavbar data={props.data.navbar} />
+    <HeaderDown data={props.data.headerdown} />
     </>
   )
 }

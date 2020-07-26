@@ -1,25 +1,60 @@
-// import App from 'next/app'
+// impoting react stuff
+import React from 'react';
+import App from 'next/app';
+
+// importing node modules
+import fs from 'fs';
+import path from 'path';
+
+// importing FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
+import Layout from '../layouts/LayoutDefault';
 
 library.add(fas, fab);
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+class MyApp extends App{
+  constructor(props){
+    super(props)
+    this.state = {
+      language: "en"
+    }
+
+    // binding
+    this.langChange = this.langChange.bind(this)
+  }
+
+  static async getInitialProps(ctx){
+    const basepath = path.join(process.cwd(), 'data');
+    const filepath = path.join(basepath, 'layout.json');
+    const layoutData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+    
+    return {
+      layoutData,
+    }
+  }
+
+  langChange(){
+    return this.setState( state => (
+      state.language === "en" 
+      ? {language: "es"} 
+      : {language: "en"}
+    ))
+  }
+
+  render(){
+    const {Component, pageProps} = this.props;
+    const state = this.state;
+    const layoutData = this.props.layoutData;
+
+    return(
+      <Layout data={layoutData} lang={state.language} langChange={this.langChange}>
+        <Component {...pageProps} lang={state.language} />
+      </Layout>
+    )
+  }
 }
 
-// Only uncomment this method if you have blocking data requirements for
-// every single page in your application. This disables the ability to
-// perform automatic static optimization, causing every page in your app to
-// be server-side rendered.
-//
-// MyApp.getInitialProps = async (appContext) => {
-//   // calls page's `getInitialProps` and fills `appProps.pageProps`
-//   const appProps = await App.getInitialProps(appContext);
-//
-//   return { ...appProps }
-// }
-
-export default MyApp
+export default MyApp;

@@ -1,0 +1,112 @@
+{
+  "en": {
+    "bannerabout": {
+      "header": "a bit about us",
+      "leftColumn": {
+        "h2":"We are the expart on this field better solution since 1984",
+        "p":"We are committed to building sustainable future by fostering a collaborative spirit that creates exceptional experiences, balanced relationships, and community built environment. Building isn'a just job. It's our passion. With every project we undertake, we set the bar high and provide the best industry.",
+        "button":"more about us"
+      },
+      "rightColumn": [
+        {
+          "img":"industry",
+          "h4":"Professional Liability",
+          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "img":"user-cog",
+          "h4":"Dedicated To Our Clients",
+          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "img":"cogs",
+          "h4":"Outstanding Services",
+          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+        }
+      ] 
+    },
+    "bannerprocess":{
+      "header":"our process",
+      "steps":[
+        {
+          "h4": "Planning & Research",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Design & Ideas",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Specialized Projects",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Final Outputs",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        }
+      ]
+    },
+    "bannerservices":{
+      "header":"our services",
+      "image": "content-1",
+      "h4": "We offer the most complete package!",
+      "p": "We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
+      "button": "explore our services"
+    }
+  },
+  "es": {
+    "bannerabout": {
+      "header": "un poco sobre nosotros",
+      "leftColumn": {
+        "h2":"Somos la mejor solución en este campo desde 1984",
+        "p":"Estamos comprometidos a construir un futuro sostenible fomentando un espíritu de colaboración que cree experiencias excepcionales, relaciones equilibradas y un entorno construido por la comunidad. Construir no es solo un trabajo. Es nuestra pasion. Con cada proyecto que emprendemos, ponemos el listón alto y ofrecemos la mejor industria.",
+        "button":"mas sobre nosotros"
+      },
+      "rightColumn": [
+        {
+          "img":"industry",
+          "h4":"Responsabilidad profesional",
+          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+        },
+        {
+          "img":"user-cog",
+          "h4":"Dedicado a nuestros clientes",
+          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+        },
+        {
+          "img":"cogs",
+          "h4":"Servicios sobresalientes",
+          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+        }
+      ] 
+    },
+    "bannerprocess":{
+      "header":"nuestro proceso",
+      "steps":[
+        {
+          "h4": "Planificacion e Investigacion",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Diseño e Ideas",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Proyectos Especializados",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        },
+        {
+          "h4": "Entregables finales",
+          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
+        }
+      ]
+    },
+    "bannerservices":{
+      "header":"nuestros servicios",
+      "image": "content-1",
+      "h4": "Ofrecemos un paquete completo!",
+      "p": "Estamos comprometidos..... We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
+      "button": "explora nuestros servicios"
+    }
+  }
+}

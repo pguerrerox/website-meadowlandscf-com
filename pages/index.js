@@ -1,26 +1,34 @@
-// imported modules
+// importing node modules
 import fs from 'fs';
 import path from 'path';
 
-// imported components
-import DefaultLayout from '../layouts/LayoutDefault';
+// importing components
+import Carrousel from '../components/Carrousel';
+import BannerAbout from '../components/BannerAbout';
+import BannerProcess from '../components/BannerProcess';
+import BannerServices from '../components/BannerServices';
 
-// exported component
+// exporting component
 export default function Home(props) {
-  let data = JSON.parse(props.data)
-  
+  const lang = props.lang
+  const data = props.data[lang];
+
   return (
-    <DefaultLayout pageTitle="Home" data= {data}>
-    </DefaultLayout>
+    <>
+      <Carrousel />
+      <BannerAbout data={data.bannerabout} />
+      <BannerProcess data={data.bannerprocess} />
+      <BannerServices data={data.bannerservices}/>
+    </>
   )
 }
 
 // fetching data
-export async function getStaticProps(){
+export async function getStaticProps() {
   const basepath = path.join(process.cwd(), 'data');
-  const filepath = path.join(basepath, 'contact.json');
-  const data = fs.readFileSync(filepath, 'utf8');
-  
+  const filepath = path.join(basepath, 'index.json');
+  const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+
   return {
     props: {
       data
