@@ -30,9 +30,9 @@ class MyApp extends App{
     const basepath = path.join(process.cwd(), 'data');
     const filepath = path.join(basepath, 'layout.json');
     const layoutData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
-    
+
     return {
-      layoutData,
+      layoutData
     }
   }
 
