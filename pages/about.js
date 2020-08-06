@@ -3,18 +3,19 @@ import fs from 'fs';
 import path from 'path';
 
 // importing components
-// import Carrousel from '../components/Carrousel';
-
+import About_aboutus from '../components/About_aboutus';
+import About_values from '../components/About_values';
 
 // exporting component
 export default function About(props) {
-  // const lang = props.lang
-  // const data = props.data[lang];
+  const lang = props.lang
+  const data = props.data[lang];
 
   return (
     <>
-    <h1 className='display-1'>About Page</h1>
-      {/* <Carrousel data={data.carrousel} /> */}
+    {/* <h1 className='display-1'>About Page</h1> */}
+    <About_aboutus data={data.aboutus}/>
+    <About_values data={data.values}/>
     </>
   )
 }
@@ -22,7 +23,7 @@ export default function About(props) {
 // fetching data
 export async function getStaticProps() {
   const basepath = path.join(process.cwd(), 'data');
-  const filepath = path.join(basepath, 'index.json');
+  const filepath = path.join(basepath, 'about.json');
   const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 
   return {
