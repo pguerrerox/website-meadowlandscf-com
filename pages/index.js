@@ -35,3 +35,10 @@ export async function getStaticProps() {
     }
   }
 }
+
+// export async function getStaticPath(){
+//   const staticPath = {
+//     paths: ['/about', '/services'],
+//     fallback: false
+//   }
+// }

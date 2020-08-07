@@ -34,9 +34,9 @@ export async function getStaticProps() {
 }
 
 // compiling page on build
-export async function getStaticPath(){
-  const staticPath = {
-    paths: ['/about'],
-    fallback: false
-  }
-}
+// export async function getStaticPath(){
+//   const staticPath = {
+//     paths: ['/about', '/services'],
+//     fallback: false
+//   }
+// }
