@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Contact Page",
+    "thanks":{
+      "h1": "Thanks for you interest",
+      "h3": "Who can we help you?",
+      "p": "At Meadowlands Construction & Flip we strive to offer you the best service possible, please use the form below to reach us directly, we will promptly get back to you with the appropriate answer to your inquires."
+    },
+    "form":{
+      "fields":{
+        "name": {
+          "id": "name",
+          "label": "Name",
+          "placeholder": " John Doe"
+        },
+        "email": {
+          "id": "email",
+          "label": "Email",
+          "placeholder": "johndoe@example.com"
+        },
+        "subject": {
+          "id": "subject",
+          "label": "Subject",
+          "placeholder": "Information Request"
+        },
+        "message": {
+          "id": "message",
+          "label": "Message",
+          "placeholder": "your message here"
+        }
+      },
+      "button": {
+        "text": "Submit"
+      }
+    },
+    "contact_text":{
+
+    }
+  },
+  "es":{
+  }
+}
