@@ -10,7 +10,7 @@ export default function HeaderNavbar(props) {
 
   return (
     <>
-    <section className='HeaderMid bg-white sticky-top '>
+    <section className='HeaderMid bg-white sticky-top'>
       <div className='container'>
         <nav className='navbar navbar-expand-lg py-2 row'>
           <div className='navbar-brand'>
@@ -24,7 +24,7 @@ export default function HeaderNavbar(props) {
           </button>
 
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div className='navbar-nav d-flex justify-content-end  align-items-center'>
+            <div className='navbar-nav d-flex justify-content-end  align-items-center font-nexa'>
               {menuItems.map((item, index)=><Link href={item.link} key={index}><a className='text-capitalize nav-link mx-3'>{item.page}</a></Link>)}
               <button type="button" className="btn btn-primary btn-md mx-3" data-toggle="modal" data-target="#exampleModal">Request a quote</button>
             </div>

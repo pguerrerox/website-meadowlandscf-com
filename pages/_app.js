@@ -11,6 +11,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
+// importing layout component
 import Layout from '../layouts/LayoutDefault';
 
 library.add(fas, fab);

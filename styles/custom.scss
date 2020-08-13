@@ -1,9 +1,45 @@
-
+// colors
 $primary: #40a7ea; 
 $secondary: #919191;
 
 $theme-colors: (
-  "terciary": #666666
+  "terciary": #666666,
 );
+//font-size
+$font-size-base: .95rem;
 
+// fonts
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url('~/assets/fonts/open_sans_regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: 600;
+  src: url('~/assets/fonts/open_sans_semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nexa Rust Sans';
+  font-style: black;
+  src: url('~/assets/fonts/nexa_rust_sans_black.otf') format('opentype');
+}
+
+%font-nexa { font-family: 'Nexa Rust Sans' !important}
+%font-opensans { font-family: 'Open Sans', sans-serif !important}
+%font-bold { font-weight: bold !important}
+
+.font-roboto {
+  @extend %font-opensans;
+  &-bold {
+    @extend %font-opensans;
+    @extend %font-bold;
+  }
+}
+.font-nexa{
+  @extend %font-nexa;
+}
+body{
+  @extend %font-opensans
+}
 @import "../node_modules//bootstrap/scss/bootstrap";

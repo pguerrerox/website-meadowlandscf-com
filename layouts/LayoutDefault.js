@@ -19,6 +19,7 @@ export default function LayoutDefault(props){
 
       {/* viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charset="UTF-8"/>
       
       {/* for IE */}
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
