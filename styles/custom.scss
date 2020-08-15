@@ -1,13 +1,21 @@
 // colors
 $primary: #40a7ea; 
-$secondary: #919191;
+$secondary: #363636;
+$terciary: #666;
 
 $theme-colors: (
-  "terciary": #666666,
+  "terciary": $terciary,
 );
 //font-size
 $font-size-base: .95rem;
 
+//font-color
+h1, h2, h3, h4, h5, h6 {
+  color: $secondary
+}
+p, span {
+  color: $terciary
+}
 // fonts
 @font-face {
   font-family: 'Open Sans';
@@ -21,7 +29,7 @@ $font-size-base: .95rem;
 }
 @font-face {
   font-family: 'Nexa Rust Sans';
-  font-style: black;
+  font-style: 600;
   src: url('~/assets/fonts/nexa_rust_sans_black.otf') format('opentype');
 }
 
@@ -40,6 +48,7 @@ $font-size-base: .95rem;
   @extend %font-nexa;
 }
 body{
-  @extend %font-opensans
+  @extend %font-opensans;
 }
+
 @import "../node_modules//bootstrap/scss/bootstrap";

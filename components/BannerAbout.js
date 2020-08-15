@@ -1,3 +1,6 @@
+// importing nextjs/api
+import Link from "next/link";
+
 // importing modules
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -7,19 +10,21 @@ export default function BannerAbout(props) {
 
   const iconStyle = {
     width: '100px',
-    color: 'darkgray'
+    color: '#40a7ea'
   }
 
   return (
     <>
       <section className='BannerAbout py-5'>
         <div className='container'>
-          <h6 className='text-center m-4'>{data.header}</h6>
+          <h5 className='text-center text-secondary m-4'>{data.header}</h5>
           <div className='row justify-content-between'>
             <div className='col-xl-5 d-flex flex-column'>
               <h2>{data.leftColumn.h2}</h2>
               <p>{data.leftColumn.p}</p>
-              <button className='btn btn-primary btn-lg w-50 m-auto'>{data.leftColumn.button}</button>
+              <Link href={data.leftColumn.link}>
+                <a className='btn btn-primary btn-lg w-50 m-auto text-uppercase font-weight-bold'>{data.leftColumn.button}</a>
+              </Link>
             </div>
             <div className='col-xl-5'>
               {
@@ -28,7 +33,7 @@ export default function BannerAbout(props) {
                     // console.log(item.img);
                     <div className='d-flex'>
                       <FontAwesomeIcon icon={item.img} style={iconStyle} />
-                      <div className='ml-4'>
+                      <div className='ml-4 my-3'>
                         <h4>{item.h4}</h4>
                         <p>{item.p}</p>
                       </div>

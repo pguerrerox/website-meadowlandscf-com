@@ -29,9 +29,12 @@ export default function Home(props) {
 // fetching data
 export async function getStaticProps() {
   const basepath = path.join(process.cwd(), 'data');
+
+  // index data
   const filepath = path.join(basepath, 'index.json');
   const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 
+  // realtor data
   const realtorPath = path.join(basepath, 'realtor.json');
   const realtor = JSON.parse(fs.readFileSync(realtorPath, 'utf8'));
 

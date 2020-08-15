@@ -31,7 +31,8 @@
       "leftColumn": {
         "h2":"We are the expart on this field better solution since 1984",
         "p":"We are committed to building sustainable future by fostering a collaborative spirit that creates exceptional experiences, balanced relationships, and community built environment. Building isn'a just job. It's our passion. With every project we undertake, we set the bar high and provide the best industry.",
-        "button":"more about us"
+        "button":"more about us",
+        "link": "/about"
       },
       "rightColumn": [
         {
@@ -112,7 +113,8 @@
       "leftColumn": {
         "h2":"Somos la mejor solución en este campo desde 1984",
         "p":"Estamos comprometidos a construir un futuro sostenible fomentando un espíritu de colaboración que cree experiencias excepcionales, relaciones equilibradas y un entorno construido por la comunidad. Construir no es solo un trabajo. Es nuestra pasion. Con cada proyecto que emprendemos, ponemos el listón alto y ofrecemos la mejor industria.",
-        "button":"mas sobre nosotros"
+        "button":"mas sobre nosotros",
+        "link": "/about"
       },
       "rightColumn": [
         {

@@ -29,9 +29,12 @@ export default function Contact(props) {
 // fetching data
 export async function getStaticProps() {
   const basepath = path.join(process.cwd(), 'data');
+
+  //contact data
   const filepath = path.join(basepath, 'contact.json');
   const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 
+  // realtor data
   const realtorPath = path.join(basepath, 'realtor.json');
   const realtor = JSON.parse(fs.readFileSync(realtorPath, 'utf8'));
 
