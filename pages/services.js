@@ -11,7 +11,7 @@ export default function Services(props) {
     <>
     <section className='Services pt-5 pb-3'>
       <div className='container'>
-        <h5 className='text-center text-secondary'>{props.data.en.h1}</h5>
+        <h5 className='text-center text-secondary'>{data.h1}</h5>
         <div class="row row-cols-3">
         {
         data.services.map((item) => {
@@ -31,9 +31,7 @@ export default function Services(props) {
           )
         })
         }
-          
         </div>
-
       </div>
     </section>
       

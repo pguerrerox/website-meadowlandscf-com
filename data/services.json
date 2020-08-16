@@ -41,6 +41,45 @@
     ]
   },
   "es":{
+    "h1": "Nuestros Servicios",
+    "services": [
+      {
+        "title":"Roofing and Repair",
+        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "img":"roofing",
+        "altText": "House Roof"
+      },
+      {
+        "title":"Kitchen Remodeling",
+        "content":"This card has supporting text below as a natural lead-in to additional content.",
+        "img":"kitchens",
+        "altText": "House Kitchen"
+      },
+      {
+        "title":"Bathroom Remodeling",
+        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
+        "img":"bathrooms",
+        "altText": "House Bathroom"
+      },
+      {
+        "title":"Painting Interior and Exterior",
+        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
+        "img":"painting",
+        "altText": "House Interiors"
+      },
+      {
+        "title":"Masonry",
+        "content":"This card has supporting text below as a natural lead-in to additional content.",
+        "img":"masonry",
+        "altText": "Masonry in House"
+      },
+      {
+        "title":"Renovations in General",
+        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
+        "img":"siding",
+        "altText": "House Renovarions"
+      }
+    ]
 
   }
 }

@@ -21,19 +21,19 @@
           "id": "subject",
           "label": "Subject",
           "placeholder": "Information Request"
-        },
-        "message": {
-          "id": "message",
-          "label": "Message",
-          "placeholder": "your message here"
         }
+      },
+      "message": {
+        "id": "message",
+        "label": "Message",
+        "placeholder": "your message here"
       },
       "button": {
         "text": "Submit"
       }
     },
     "contact_text":{
-      "h2": "To get in contact",
+      "h3": "Get in touch with us using the following methods",
       "content":[
         {
           "title": "Via telephone, our number is:",
@@ -51,12 +51,12 @@
             {
               "href":"#",
               "title":"Visit our Facebook Page",
-              "text": "facebook"
+              "text": "Facebook"
             },
             {
               "href":"#",
               "title":"Visit our Instagram Page",
-              "text": "instagram"
+              "text": "Instagram"
             }
           ]
         },
@@ -74,5 +74,77 @@
     }
   },
   "es":{
+    "thanks":{
+      "h1": "Gracias por el interes",
+      "h3": "Who can we help you?",
+      "p": "At Meadowlands Construction & Flip we strive to offer you the best service possible, please use the form below to reach us directly, we will promptly get back to you with the appropriate answer to your inquires."
+    },
+    "form":{
+      "fields":{
+        "name": {
+          "id": "name",
+          "label": "Name",
+          "placeholder": " John Doe"
+        },
+        "email": {
+          "id": "email",
+          "label": "Email",
+          "placeholder": "johndoe@example.com"
+        },
+        "subject": {
+          "id": "subject",
+          "label": "Subject",
+          "placeholder": "Information Request"
+        }
+      },
+      "message": {
+        "id": "message",
+        "label": "Message",
+        "placeholder": "your message here"
+      },
+      "button": {
+        "text": "Submit"
+      }
+    },
+    "contact_text":{
+      "h3": "Get in touch with us using the following methods",
+      "content":[
+        {
+          "title": "Via telephone, our number is:",
+          "links":[
+            {
+              "href":"tel:123-123-1234",
+              "title":"Call us at",
+              "text": "123-123-1234"
+            }
+          ]
+        },
+        {
+          "title": "Visiting our socialmedia:",
+          "links":[
+            {
+              "href":"#",
+              "title":"Visit our Facebook Page",
+              "text": "Facebook"
+            },
+            {
+              "href":"#",
+              "title":"Visit our Instagram Page",
+              "text": "Instagram"
+            }
+          ]
+        },
+        {
+          "title": "Our working hours are:",
+          "links":[
+            {
+              "href":"#",
+              "title":"Working Hours",
+              "text": "Monday / Friday: 9:00 am / 5:00 pm"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
