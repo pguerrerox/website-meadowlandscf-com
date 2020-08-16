@@ -15,7 +15,7 @@ export default function Footer(props){
             <p>{data.left.slogan}</p>
           </div>
           <div className='center col-xl-3'>
-            <h5 className='text-capitalize text-center'>{data.center.title}</h5>
+            <h5 className='text-capitalize text-center text-light font-nexa'>{data.center.title}</h5>
             <ul className='list-unstyled'>
               {
                 data.center.sitemap.map((item, index) => {
@@ -27,12 +27,12 @@ export default function Footer(props){
             </ul>
           </div>
           <div className='right col-xl-3'>
-            <h5 className='text-capitalize text-center'>{data.right.title}</h5>
+            <h5 className='text-capitalize text-center text-light font-nexa'>{data.right.title}</h5>
               {
                 data.right.items.map((item, index) => {
                   return (
                     <div className='my-3' key={index}> 
-                      <h6 className='my-0'>{item.title}</h6>
+                      <h6 className='my-0 text-light'>{item.title}</h6>
                       <a href={item.link}>{item.text}</a>
                     </div>
                   )

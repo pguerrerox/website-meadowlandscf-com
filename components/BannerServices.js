@@ -20,7 +20,6 @@ export default function BannerServices(props) {
             <Link href='/services'>
               <a className='btn btn-lg btn-primary font-weight-bold text-uppercase '>{data.button}</a>
             </Link>
-
           </div>
         </div>
       </div>

@@ -71,3 +71,7 @@ module.exports = withSass({
 
 Interesting enough, functional components run functions (like onlick events) with the context from there defined parent. 
 (is this a reach behavior? or next.js mod?)
+
+- Importing  images using webpack
+
+Found a config, but could't make it work, need to do a bit more research about configuring webpack to do this.

@@ -1,25 +1,25 @@
 {
   "en": {
     "aboutus": {
-      "h1": "Who we are?",
+      "h2": "Who we are:",
       "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas efficitur dolor dui, feugiat dignissim ligula porta sed. Sed vulputate lorem ac felis mollis, vel pharetra leo aliquet. Morbi sit amet nibh egestas nibh efficitur ullamcorper. Nulla eget ipsum vel lorem pulvinar pretium sit amet nec sem. Donec interdum nunc id porttitor maximus. Proin tincidunt aliquet neque nec rutrum. Donec in volutpat tortor. Nullam in mi lectus. Aliquam maximus, augue quis pellentesque eleifend, elit augue dignissim nulla, eu aliquet eros eros in urna. Integer elementum lacus lacus, nec rhoncus lacus porta quis. Nulla et arcu nec odio tincidunt tempus. Cras vitae tellus in quam auctor volutpat.",
       "img": "about_stockhome",
       "imgAlt": "House Remodelation Before and After",
       "styleReversed": false
     },
     "values": {
-      "h1": "Our values",
+      "h2": "Our values",
       "div": [
         {
-          "h2": "Accountability", 
+          "h4": "Accountability", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         },
         {
-          "h2": "Excellence", 
+          "h4": "Excellence", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         },
         {
-          "h2": "Stability", 
+          "h4": "Stability", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         }
       ],
