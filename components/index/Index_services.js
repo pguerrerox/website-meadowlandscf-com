@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 // exporting component
-export default function BannerServices(props) {
+export default function Index_services(props) {
   const data = props.data
 
   return (

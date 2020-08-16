@@ -4,9 +4,9 @@ import path from 'path';
 
 // importing components
 import Carrousel from '../components/Carrousel';
-import BannerAbout from '../components/BannerAbout';
-import BannerProcess from '../components/BannerProcess';
-import BannerServices from '../components/BannerServices';
+import Index_about from '../components/index/Index_about';
+import Index_process from '../components/index/Index_process';
+import Index_services from '../components/index/Index_services';
 import Realtor from '../components/Realtor';
 
 // exporting component
@@ -18,9 +18,9 @@ export default function Home(props) {
   return (
     <>
       <Carrousel data={data.carrousel} />
-      <BannerAbout data={data.bannerabout} />
-      <BannerProcess data={data.bannerprocess} />
-      <BannerServices data={data.bannerservices}/>
+      <Index_about data={data.bannerabout} />
+      <Index_process data={data.bannerprocess} />
+      <Index_services data={data.bannerservices}/>
       <Realtor data={realtor} />
     </>
   )

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // exporting component
-export default function BannerAbout(props) {
+export default function Index_about(props) {
   const data = props.data;
 
   const iconStyle = {
@@ -15,7 +15,7 @@ export default function BannerAbout(props) {
 
   return (
     <>
-      <section className='BannerAbout py-5'>
+      <section className='Index_about py-5'>
         <div className='container'>
           <h5 className='text-center text-secondary m-4'>{data.header}</h5>
           <div className='row justify-content-between'>

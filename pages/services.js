@@ -2,9 +2,6 @@
 import fs from 'fs';
 import path from 'path';
 
-// importing components
-
-
 // exporting component
 export default function Services(props) {
   const lang = props.lang
@@ -12,21 +9,20 @@ export default function Services(props) {
 
   return (
     <>
-    <h1 className='display-1'>{props.data.en.h1}</h1>
-    <div className='container'>
-      <div class="card-deck">
-      <div className='row'>
+    <section className='Services pt-5 pb-3'>
+      <div className='container'>
+        <h5 className='text-center text-secondary'>{props.data.en.h1}</h5>
+        <div class="row row-cols-3">
         {
         data.services.map((item) => {
           return (
             <>
-            
-              <div className='col-4'>
-                <div class="card">
+              <div className='col mt-4'>
+                <div class="card bg-light h-100">
                   <img class="card-img-top" src={"/images/cards/"+item.img+".jpg"} alt={item.altText}/>
+                  <h5 className='card-header text-dark text-center'>{item.title}</h5>
                   <div class="card-body">
-                    <h5 class="card-title">{item.title}</h5>
-                    <p class="card-text">{item.content}</p>
+                    <p class="card-text text-gray">{item.content}</p>
                   </div>
                 </div>
               </div>
@@ -35,9 +31,12 @@ export default function Services(props) {
           )
         })
         }
+          
         </div>
+
       </div>
-    </div>
+    </section>
+      
     
     </>
   )

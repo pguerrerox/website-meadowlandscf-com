@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 // importing components
-import About_aboutus from '../components/About_aboutus';
-import About_values from '../components/About_values';
+import About_aboutus from '../components/about/About_aboutus';
+import About_values from '../components/about/About_values';
 
 // exporting component
 export default function About(props) {

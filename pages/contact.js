@@ -3,9 +3,9 @@ import fs from 'fs';
 import path from 'path';
 
 // importing components
-import Contact_thanks from '../components/Contact_thanks';
-import Contact_form from '../components/Contact_form';
-import Contact_text from '../components/Contact_text';
+import Contact_thanks from '../components/contact/Contact_thanks';
+import Contact_form from '../components/contact/Contact_form';
+import Contact_text from '../components/contact/Contact_text';
 import Realtor from '../components/Realtor';
 
 // exporting component

@@ -1,5 +1,5 @@
 // exporting component
-export default function BannerProcess(props) {
+export default function Index_process(props) {
   const data = props.data;
 
   let fixedSize = {
