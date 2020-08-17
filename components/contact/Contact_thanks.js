@@ -1,5 +1,5 @@
 // exporting component
-export default function Contact_thanks(props){
+export default function Contact_thanks(props) {
   const data = props.data;
 
   const bg = {
@@ -13,8 +13,7 @@ export default function Contact_thanks(props){
     filter: "blur(15px)"
   }
 
-  return(
-    <>
+  return (
     <section className='Contact_thanks'>
       <div className='container position-relative'>
         <div style={bg}></div>
@@ -25,6 +24,5 @@ export default function Contact_thanks(props){
         </div>
       </div>
     </section>
-    </>
   )
 }

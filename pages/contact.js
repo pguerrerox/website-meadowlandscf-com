@@ -16,14 +16,14 @@ export default function Contact(props) {
 
   return (
     <>
-    <Contact_thanks data={data.thanks} />
-    <div className='container'>
-      <div className='row my-5'>
-        <Contact_form data={data.form} />
-        <Contact_text data={data.contact_text}/>
+      <Contact_thanks data={data.thanks} />
+      <div className='container'>
+        <div className='row my-5'>
+          <Contact_form data={data.form} />
+          <Contact_text data={data.contact_text} />
+        </div>
       </div>
-    </div>
-    <Realtor data={realtor}/>
+      <Realtor data={realtor} />
     </>
   )
 }

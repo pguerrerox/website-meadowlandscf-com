@@ -16,8 +16,8 @@ import Layout from '../layouts/LayoutDefault';
 
 library.add(fas, fab);
 
-class MyApp extends App{
-  constructor(props){
+class MyApp extends App {
+  constructor(props) {
     super(props)
     this.state = {
       language: "en"
@@ -27,7 +27,7 @@ class MyApp extends App{
     this.langChange = this.langChange.bind(this)
   }
 
-  static async getInitialProps(ctx){
+  static async getInitialProps(ctx) {
     const basepath = path.join(process.cwd(), 'data');
     const filepath = path.join(basepath, 'layout.json');
     const layoutData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
@@ -37,20 +37,20 @@ class MyApp extends App{
     }
   }
 
-  langChange(){
-    return this.setState( state => (
-      state.language === "en" 
-      ? {language: "es"} 
-      : {language: "en"}
+  langChange() {
+    return this.setState(state => (
+      state.language === "en"
+        ? { language: "es" }
+        : { language: "en" }
     ))
   }
 
-  render(){
-    const {Component, pageProps} = this.props;
+  render() {
+    const { Component, pageProps } = this.props;
     const state = this.state;
     const layoutData = this.props.layoutData;
 
-    return(
+    return (
       <Layout data={layoutData} lang={state.language} langChange={this.langChange}>
         <Component {...pageProps} lang={state.language} />
       </Layout>
@@ -59,3 +59,11 @@ class MyApp extends App{
 }
 
 export default MyApp;
+
+// compiling page on build
+// export async function getStaticPath(){
+//   const staticPath = {
+//     paths: ['/about', '/services'],
+//     fallback: false
+//   }
+// }

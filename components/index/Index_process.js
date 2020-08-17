@@ -14,30 +14,28 @@ export default function Index_process(props) {
   }
 
   return (
-    <>
-      <section className='BannerProcess py-5 bg-light'>
-        <div className='container my-4'>
-          <h5 className='text-center'>{data.header}</h5>
-          <div className='row'>
-            {
-              data.steps.map((item, index) => {
-                return (
-                  <div className='col-xl-3'>
-                    <div className='d-flex flex-column justify-content-center align-items-center'>
-                      <div class='d-flex justify-content-center align-items-center bg-primary rounded-circle m-3' style={fixedSize}>
-                        <div className='text-light font-weight-bold'>{index + 1}</div>
-                      </div>
-                      <hr style={customHR}/>
-                      <h4 className='text-center'>{item.h4}</h4>
-                      <p className='text-center'>{item.p}</p>
+    <section className='BannerProcess py-5 bg-light'>
+      <div className='container my-4'>
+        <h5 className='text-center'>{data.header}</h5>
+        <div className='row'>
+          {
+            data.steps.map((item, index) => {
+              return (
+                <div className='col-xl-3' key={index} >
+                  <div className='d-flex flex-column justify-content-center align-items-center'>
+                    <div className='d-flex justify-content-center align-items-center bg-primary rounded-circle m-3' style={fixedSize}>
+                      <div className='text-light font-weight-bold'>{index + 1}</div>
                     </div>
+                    <hr style={customHR} />
+                    <h4 className='text-center'>{item.h4}</h4>
+                    <p className='text-center'>{item.p}</p>
                   </div>
-                )
-              })
-            }
-          </div>
+                </div>
+              )
+            })
+          }
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   )
 }

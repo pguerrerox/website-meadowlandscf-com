@@ -13,9 +13,9 @@ export default function About(props) {
 
   return (
     <>
-    {/* <h1 className='display-1'>About Page</h1> */}
-    <About_aboutus data={data.aboutus}/>
-    <About_values data={data.values}/>
+      {/* <h1 className='display-1'>About Page</h1> */}
+      <About_aboutus data={data.aboutus} />
+      <About_values data={data.values} />
     </>
   )
 }
@@ -32,11 +32,3 @@ export async function getStaticProps() {
     }
   }
 }
-
-// compiling page on build
-// export async function getStaticPath(){
-//   const staticPath = {
-//     paths: ['/about', '/services'],
-//     fallback: false
-//   }
-// }

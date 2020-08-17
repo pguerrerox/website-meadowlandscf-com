@@ -20,7 +20,7 @@ export default function Home(props) {
       <Carrousel data={data.carrousel} />
       <Index_about data={data.bannerabout} />
       <Index_process data={data.bannerprocess} />
-      <Index_services data={data.bannerservices}/>
+      <Index_services data={data.bannerservices} />
       <Realtor data={realtor} />
     </>
   )
@@ -45,10 +45,3 @@ export async function getStaticProps() {
     }
   }
 }
-
-// export async function getStaticPath(){
-//   const staticPath = {
-//     paths: ['/about', '/services'],
-//     fallback: false
-//   }
-// }

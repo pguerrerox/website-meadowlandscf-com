@@ -6,13 +6,12 @@ export default function Index_services(props) {
   const data = props.data
 
   return (
-    <>
     <section className='BannerServices py-4'>
       <div className='container my-4'>
         <h5 className='text-center m-5'>{data.header}</h5>
         <div className='row'>
           <div className='col-lg-6 '>
-            <img className='img-fluid' src={"/images/"+data.image+".jpg"} alt="worker on the phone" />
+            <img className='img-fluid' src={"/images/" + data.image + ".jpg"} alt="worker on the phone" />
           </div>
           <div className='col-lg-6 d-flex flex-column justify-content-lg-center align-items-lg-start'>
             <h4 className='m-0'>{data.h4}</h4>
@@ -24,6 +23,5 @@ export default function Index_services(props) {
         </div>
       </div>
     </section>
-    </>
   )
 }

@@ -8,35 +8,28 @@ export default function Services(props) {
   const data = props.data[lang];
 
   return (
-    <>
     <section className='Services pt-5 pb-3'>
       <div className='container'>
         <h5 className='text-center text-secondary'>{data.h1}</h5>
-        <div class="row row-cols-3">
-        {
-        data.services.map((item) => {
-          return (
-            <>
-              <div className='col mt-4'>
-                <div class="card bg-light h-100">
-                  <img class="card-img-top" src={"/images/cards/"+item.img+".jpg"} alt={item.altText}/>
-                  <h5 className='card-header text-dark text-center'>{item.title}</h5>
-                  <div class="card-body">
-                    <p class="card-text text-gray">{item.content}</p>
+        <div className="row row-cols-3">
+          {
+            data.services.map((item, i) => {
+              return (
+                <div className='col mt-4' key={i}>
+                  <div className="card bg-light h-100">
+                    <img className="card-img-top" src={"/images/cards/" + item.img + ".jpg"} alt={item.altText} />
+                    <h5 className='card-header text-dark text-center'>{item.title}</h5>
+                    <div className="card-body">
+                      <p className="card-text text-gray">{item.content}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            
-            </>
-          )
-        })
-        }
+              )
+            })
+          }
         </div>
       </div>
     </section>
-      
-    
-    </>
   )
 }
 
@@ -52,11 +45,3 @@ export async function getStaticProps() {
     }
   }
 }
-
-// compiling page on build
-// export async function getStaticPath(){
-//   const staticPath = {
-//     paths: ['/services'],
-//     fallback: false
-//   }
-// }
