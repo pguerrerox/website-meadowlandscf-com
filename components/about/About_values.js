@@ -7,12 +7,12 @@ export default function About_values(props) {
       <div className='container'>
         <h2 className='text-right'>{data.h2} </h2>
         <div className='row pt-2'>
-          <div className='d-flex col-6 align-items-center'>
+          <div className='col-6 d-flex align-items-center'>
             <div className=''>
               <img src={"/images/" + data.img + ".jpg"} alt={data.imgAlt} className='img-fluid d-inline-block align-middle' />
             </div>
           </div>
-          <ul className='col-6 list-unstyled'>
+          <ul className='col-6 list-unstyled d-flex flex-column align-items-center m-0'>
             {
               data.div.map((point, i) => {
                 return (

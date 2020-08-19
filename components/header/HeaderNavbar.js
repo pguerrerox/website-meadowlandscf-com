@@ -15,7 +15,7 @@ export default function HeaderNavbar(props) {
           <nav className='navbar navbar-expand-lg py-2 row'>
             <div className='navbar-brand'>
               <Link href='/'>
-                <a><img src='/images/logo-hori.png' alt="Brand Logo" /></a>
+                <a><img className='img-fluid' src='/images/logo-hori.png' alt="Brand Logo" /></a>
               </Link>
             </div>
 
@@ -25,8 +25,8 @@ export default function HeaderNavbar(props) {
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div className='navbar-nav d-flex justify-content-end  align-items-center font-nexa'>
-                {menuItems.map((item, index) => <Link href={item.link} key={index}><a className='text-capitalize nav-link mx-3'>{item.page}</a></Link>)}
-                <button type="button" className="btn btn-primary btn-md mx-3" data-toggle="modal" data-target="#exampleModal">Request a quote</button>
+                {menuItems.map((item, index) => <Link href={item.link} key={index}><a className='text-capitalize nav-link mx-2'>{item.page}</a></Link>)}
+                <button type="button" className="btn btn-primary btn-md btn-sm mx-3" data-toggle="modal" data-target="#exampleModal">Request a quote</button>
               </div>
             </div>
           </nav>

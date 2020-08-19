@@ -18,7 +18,7 @@ export default function HeaderContactCard(props) {
   return (
     props.social
       ?
-      <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 py-2 d-flex justify-content-center'>
+      <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12 py-2 mt-lg-3 d-flex justify-content-center'>
         <div className='d-flex flex-row justify-content-center align-items-center'>
           {
             socialIcons.map((x, index) => {
