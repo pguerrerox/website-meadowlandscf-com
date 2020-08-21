@@ -25,7 +25,7 @@ export default function Index_about(props) {
               <a className='btn btn-primary btn-lg w-50 text-uppercase font-weight-bold'>{data.leftColumn.button}</a>
             </Link>
           </div>
-          <div className='col-xl-5 my-xl-0 mt-lg-4'>
+          <div className='col-xl-5 my-xl-0 mt-4'>
             {
               data.rightColumn.map((item, i) => {
                 return (

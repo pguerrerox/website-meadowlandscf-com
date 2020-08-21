@@ -45,7 +45,7 @@ class Contact_form extends Component {
       fields = this.props.data.fields;
 
     return (
-      <section className='Contact_form col-6'>
+      <section className='Contact_form col-lg-6'>
         <div className='content row'>
           <form className='col mx-4 my-4 px-5 py-4 bg-primary rounded' onSubmit={this.handleSubmit}>
             {

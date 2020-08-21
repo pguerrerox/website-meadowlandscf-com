@@ -12,10 +12,10 @@ export default function HeaderNavbar(props) {
     <>
       <section className='HeaderMid bg-white sticky-top'>
         <div className='container'>
-          <nav className='navbar navbar-expand-lg py-2 row'>
+          <nav className='navbar navbar-expand-lg py-2 px-2 row'>
             <div className='navbar-brand'>
               <Link href='/'>
-                <a><img className='img-fluid' src='/images/logo-hori.png' alt="Brand Logo" /></a>
+                <a><img className='' src='/images/logo-hori.png' alt="Brand Logo" /></a>
               </Link>
             </div>
 
@@ -34,10 +34,8 @@ export default function HeaderNavbar(props) {
       </section>
 
       <style jsx>{`
-    .HeaderMid img{
-      width: 375px;
-    }
-    `}</style>
+
+      `}</style>
     </>
   )
 }

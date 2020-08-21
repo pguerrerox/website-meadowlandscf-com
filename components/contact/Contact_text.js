@@ -3,9 +3,9 @@ export default function Contact_text(props) {
   const data = props.data;
 
   return (
-    <section className="Contact_text col-6">
+    <section className="Contact_text col-lg-6">
       <div className='content text-center h-100 d-flex justify-content-center align-items-center'>
-        <div className='mx-4 my-4 px-5 py-4'>
+        <div className='mx-4 my-4 px-4 py-4'>
           <h3>{data.h3}</h3>
           {
             data.content.map((item, i) => {

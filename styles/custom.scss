@@ -51,4 +51,36 @@ body{
   @extend %font-opensans;
 }
 
+// Special media query styles
+// Extra small devices (576px and down)
+@media (max-width: 575px) {
+  .HeaderMid img{
+    width: 325px;
+  }
+}
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .HeaderMid img{
+    width: 325px;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .HeaderMid img{
+    width: 325px;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .HeaderMid img{
+    width: 350px;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .HeaderMid img{
+    width: 375px;
+  }
+}
+
 @import "../node_modules//bootstrap/scss/bootstrap";

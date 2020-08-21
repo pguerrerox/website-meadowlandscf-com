@@ -10,7 +10,7 @@ export default function Contact_thanks(props) {
     backgroundSize: "30%",
     backgroundPosition: "85%",
     backgroundRepeat: "no-repeat",
-    filter: "blur(15px)"
+    filter: "blur(25px)"
   }
 
   return (
@@ -20,7 +20,7 @@ export default function Contact_thanks(props) {
         <div className='content my-5'>
           <h1 className='my-5'>{data.h1}</h1>
           <h3 className='mb-3'>{data.h3}</h3>
-          <p className='col-7 p-0'>{data.p}</p>
+          <p className='col-12 col-lg-7 p-0'>{data.p}</p>
         </div>
       </div>
     </section>

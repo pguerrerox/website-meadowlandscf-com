@@ -11,11 +11,11 @@ export default function Services(props) {
     <section className='Services pt-5 pb-3'>
       <div className='container'>
         <h5 className='text-center text-secondary'>{data.h1}</h5>
-        <div className="row row-cols-3">
+        <div className="row">
           {
             data.services.map((item, i) => {
               return (
-                <div className='col mt-4' key={i}>
+                <div className='col-12 col-sm-6 col-md-4 mt-4' key={i}>
                   <div className="card bg-light h-100">
                     <img className="card-img-top" src={"/images/cards/" + item.img + ".jpg"} alt={item.altText} />
                     <h5 className='card-header text-dark text-center'>{item.title}</h5>

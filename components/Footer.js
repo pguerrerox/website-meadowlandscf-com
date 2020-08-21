@@ -14,9 +14,9 @@ export default function Footer(props) {
               <img src={"images/" + data.left.logo + ".png"} alt={data.left.logoAlt} className='mb-4' />
               <p>{data.left.slogan}</p>
             </div>
-            <div className='center col-xl-4 col-lg-6 mt-xl-0 mt-lg-4'>
+            <div className='center col-xl-4 col-lg-6 mt-xl-0 mt-4'>
               <h5 className='text-capitalize text-center text-light font-nexa'>{data.center.title}</h5>
-              <ul className='list-unstyled text-xl-left text-lg-center'>
+              <ul className='list-unstyled text-xl-left text-lg-center text-center'>
                 {
                   data.center.sitemap.map((item, index) => {
                     return (
@@ -26,12 +26,12 @@ export default function Footer(props) {
                 }
               </ul>
             </div>
-            <div className='right col-xl-4 col-lg-6 mt-xl-0 mt-lg-4'>
+            <div className='right col-xl-4 col-lg-6 mt-xl-0 mt-4'>
               <h5 className='text-capitalize text-center text-light font-nexa'>{data.right.title}</h5>
               {
                 data.right.items.map((item, index) => {
                   return (
-                    <div className='my-3 text-xl-left text-lg-center' key={index}>
+                    <div className='my-3 text-xl-left text-lg-center text-center' key={index}>
                       <h6 className='my-0 text-light'>{item.title}</h6>
                       <a href={item.link}>{item.text}</a>
                     </div>
