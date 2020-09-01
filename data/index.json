@@ -2,28 +2,13 @@
   "en": {
     "carrousel":[
       {
-        "image":"cocina",
+        "image":"cocina1",
         "positionbackground": "center center",
         "caption": "counter top",
         "subcaption": "perfect for... algo mas...",
-        "positioncaptiontop": {"top": "550px"},
-        "positioncaptionleft":{"left": "10%"}
-      },
-      {
-        "image":"dormitorio",
-        "positionbackground": "center center",
-        "caption": "Camilla y Vainilla",
-        "subcaption": "una vaina bacana!",
-        "positioncaptiontop": {"top": "250px"},
-        "positioncaptionleft":{"left": "25%"}
-      },
-      {
-        "image":"sotano",
-        "positionbackground": "center bottom",
-        "caption": "Espacio y pisos, sontaillo",
-        "subcaption": "pisa bien el piso...",
-        "positioncaptiontop": {"top": "350px"},
-        "positioncaptionleft":{"left": "20%"}
+        "positioncaptiontop": {"top": "25%", "transform": "translate(-50%, -50%)"},
+        "positioncaptionleft":{"left": "50%"},
+        "alt": "cocina"
       }
     ],
     "bannerabout": {
