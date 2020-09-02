@@ -3,12 +3,39 @@
     "carrousel":[
       {
         "image":"cocina1",
-        "positionbackground": "center center",
-        "caption": "counter top",
-        "subcaption": "perfect for... algo mas...",
-        "positioncaptiontop": {"top": "25%", "transform": "translate(-50%, -50%)"},
-        "positioncaptionleft":{"left": "50%"},
+        "caption": "Give your kitchen a new shine",
+        "subcaption": "...with our renovation services",
+        "alt": "kitchen angle one"
+      },
+      {
+        "image":"cocina2",
+        "caption": "More than renovations",
+        "subcaption": "We got you cover",
+        "alt": "kitchen angle two"
+      },
+      {
+        "image":"cocina4",
+        "caption": "Dream about it",
+        "subcaption": "...we make it a reality",
+        "alt": "kitchen angle three"
+      },
+      {
+        "image":"cuarto",
+        "caption": "Sleep comfortably",
+        "subcaption": "Our services cover every detail",
+        "alt": "bedroom"
+      },
+      {
+        "image":"sala",
+        "caption": "More than renovations",
+        "subcaption": "We got you cover",
         "alt": "cocina"
+      },
+      {
+        "image":"sotano",
+        "caption": "Clean and renew spaces",
+        "subcaption": "Front zero to perfect spaces",
+        "alt": "basement"
       }
     ],
     "bannerabout": {
@@ -69,28 +96,40 @@
   "es": {
     "carrousel":[
       {
-        "image":"cocina",
-        "positionbackground": "center center",
-        "caption": "counter top",
-        "subcaption": "perfect for... algo mas...",
-        "positioncaptiontop": {"top": "550px"},
-        "positioncaptionleft":{"left": "10%"}
+        "image":"cocina1",
+        "caption": "Dale un nuevo brillo a tu cocina",
+        "subcaption": "...con nuestros servicios de renovación",
+        "alt": "cocina angulo uno"
       },
       {
-        "image":"dormitorio",
-        "positionbackground": "center center",
-        "caption": "Camilla y Vainilla",
-        "subcaption": "una vaina bacana!",
-        "positioncaptiontop": {"top": "250px"},
-        "positioncaptionleft":{"left": "25%"}
+        "image":"cocina2",
+        "caption": "Mas que renovaciones",
+        "subcaption": "Lo tenemos cubierto",
+        "alt": "kitchen angle two"
+      },
+      {
+        "image":"cocina4",
+        "caption": "Sueña lo que deseas",
+        "subcaption": "...nosotros lo hacemos realidad",
+        "alt": "kitchen angle three"
+      },
+      {
+        "image":"cuarto",
+        "caption": "Duerme comodo",
+        "subcaption": "Nuestro servicios cubren todos los detalles",
+        "alt": "bedroom"
+      },
+      {
+        "image":"sala",
+        "caption": "Mas que renovaciones",
+        "subcaption": "Lo tenemos cubierto",
+        "alt": "cocina"
       },
       {
         "image":"sotano",
-        "positionbackground": "center bottom",
-        "caption": "Espacio y pisos, sontaillo",
-        "subcaption": "pisa bien el piso...",
-        "positioncaptiontop": {"top": "350px"},
-        "positioncaptionleft":{"left": "20%"}
+        "caption": "Espacios nuevos e impecables",
+        "subcaption": "Desde cero hasta un espacio perfecto",
+        "alt": "basement"
       }
     ],
     "bannerabout": {

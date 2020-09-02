@@ -7,6 +7,7 @@ import Link from 'next/link';
 // exporting component
 export default function HeaderNavbar(props) {
   const menuItems = props.data
+  const quote = props.quote
 
   return (
     <>
@@ -26,7 +27,7 @@ export default function HeaderNavbar(props) {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div className='navbar-nav d-flex justify-content-end  align-items-center font-nexa'>
                 {menuItems.map((item, index) => <Link href={item.link} key={index}><a className='text-capitalize nav-link mx-2'>{item.page}</a></Link>)}
-                <button type="button" className="btn btn-primary btn-md btn-sm mx-3" data-toggle="modal" data-target="#exampleModal">Request a quote</button>
+                <button type="button" className="btn btn-primary btn-md btn-sm mx-3" data-toggle="modal" data-target="#exampleModal">{quote.page}</button>
               </div>
             </div>
           </nav>

@@ -7,10 +7,14 @@ export default function Carrousel(props) {
     width: "100%",
     maxHeight: "900px",
   }
-  const carrouselItem = {
-    maxHeight: "inherit"
+  const captionPosition = {
+    maxWidth: "1000px",
+    backgroundColor: "#00000085",
+    textAlign: "center",
+    top: "25%",
+    left: "50%",
+    transform: "translate(-50%, -50%)"
   }
-
   const carrouselArrows = {
     width: "50px",
     background: "#00000090"
@@ -23,7 +27,7 @@ export default function Carrousel(props) {
   }
 
   return (
-    <section className='Carrousel d-none d-sm-block'>
+    <section className='Carrousel d-sm-block'>
       <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           {
@@ -39,81 +43,37 @@ export default function Carrousel(props) {
             data.map((item, index) => {
               return (
                 <div className={"carousel-item position-relative " + isActive(index)} key={index}>
-                  <img src={`/carrousel/${item.image}.jpg`} class="d-block w-100" alt={item.alt}/>
-                  <div className='position-absolute' style={{ ...item.positioncaptiontop, ...item.positioncaptionleft }}>
-                    <h1 className="text-white shadow-effect" style={{ textShadow: "-2px 2px 1px black" }}>{item.caption}</h1>
-                    <h2 className="text-black">{item.subcaption}</h2>
+                  <img src={`/carrousel/${item.image}.jpg`} className="d-block w-100" alt={item.alt}/>
+                  <div className='position-absolute w-75' style={captionPosition}>
+                    <h1 className="text-white">{item.caption}</h1>
+                    <h2 className="text-primary">{item.subcaption}</h2>
                   </div>
                 </div>
               )
             })
           }
         </div>
-        <a className="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev" style={carrouselArrows}>
+        {/* <a className="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev" style={carrouselArrows}>
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="sr-only">Previous</span>
         </a>
         <a className="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next" style={carrouselArrows}>
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="sr-only">Next</span>
-        </a>
+        </a> */}
       </div>
 
       <style jsx>{`
           .carousel-indicators .active{
             background: #40a7ea
           }
+          .Carrousel img{
+            transition: transform 1.2s cubic-bezier(0.1, 0.1, 0.1, 1)
+          }
+          .Carrousel:hover img{
+            transform: scale(1.25)
+          }
         `}</style>
     </section>
   )
 }
-
-// ,
-//       {
-//         "image":"cocina2",
-//         "positionbackground": "center center",
-//         "caption": "Camilla y Vainilla",
-//         "subcaption": "una vaina bacana!",
-//         "positioncaptiontop": {"top": "250px"},
-//         "positioncaptionleft":{"left": "25%"}
-//       },
-//       {
-//         "image":"cocina3",
-//         "positionbackground": "center bottom",
-//         "caption": "Espacio y pisos, sontaillo",
-//         "subcaption": "pisa bien el piso...",
-//         "positioncaptiontop": {"top": "350px"},
-//         "positioncaptionleft":{"left": "20%"}
-//       },
-//       {
-//         "image":"cocina4",
-//         "positionbackground": "center bottom",
-//         "caption": "Espacio y pisos, sontaillo",
-//         "subcaption": "pisa bien el piso...",
-//         "positioncaptiontop": {"top": "350px"},
-//         "positioncaptionleft":{"left": "20%"}
-//       },
-//       {
-//         "image":"cuarto",
-//         "positionbackground": "center bottom",
-//         "caption": "Espacio y pisos, sontaillo",
-//         "subcaption": "pisa bien el piso...",
-//         "positioncaptiontop": {"top": "350px"},
-//         "positioncaptionleft":{"left": "20%"}
-//       },
-//       {
-//         "image":"sala",
-//         "positionbackground": "center bottom",
-//         "caption": "Espacio y pisos, sontaillo",
-//         "subcaption": "pisa bien el piso...",
-//         "positioncaptiontop": {"top": "350px"},
-//         "positioncaptionleft":{"left": "20%"}
-//       },
-//       {
-//         "image":"sotano",
-//         "positionbackground": "center bottom",
-//         "caption": "Espacio y pisos, sontaillo",
-//         "subcaption": "pisa bien el piso...",
-//         "positioncaptiontop": {"top": "350px"},
-//         "positioncaptionleft":{"left": "20%"}
-//       }

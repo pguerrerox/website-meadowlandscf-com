@@ -7,33 +7,37 @@
         {"page": "services", "link": "/services"},
         {"page": "contact", "link": "/contact"}
       ],
+      "quote":{
+        "page": "Get a Quote",
+        "link": "#"
+      },
       "headerdown": {
         "location":{
           "logo":"globe",
-          "topLine":"Newyork, USA",
-          "botLine":"Flat 201, Reynolds",
-          "link":"map"
+          "topLine":"Lyndhurst, NJ",
+          "botLine":"USA",
+          "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"
         },
         "hours":{
           "logo":"phone-alt",
-          "topLine":"324 123 4567",
-          "botLine":"Mon - Fri: 9 / 5",
-          "link":"tel:13241234567"
+          "topLine":"(201) 713 - 7691",
+          "botLine":"Mon - Fri: 9am / 5pm",
+          "link":"tel:201-713-7691"
         },
         "email":{
           "logo":"envelope",
           "topLine":"support email",
           "botLine":"Get in contact",
-          "link":"mailto:someone@example.com"
+          "link":"mailto:a.rosario@meadowlandscf.com"
         },
         "social":{
           "facebook": {
             "logo": "facebook-square",
-            "link": ""
+            "link": "https://www.facebook.com/Meadowlands-Construction-Flip-103174734795876"
           },
           "instagram": {
             "logo": "instagram",
-            "link": ""
+            "link": "https://www.instagram.com/meadowlands_construction_flip/"
           },
           "linkedin": {
             "logo": "linkedin",
@@ -60,9 +64,9 @@
       "right":{
         "title":"Contact Information",
         "items":[
-          {"title": "Address", "text":"Newyork, USA Flat 201, Reynolds", "link":"map"},
-          {"title": "Telephone", "text":"123-123-1234", "link":"tel"},
-          {"title": "Email", "text": "emaislsld", "link":"mailto"}
+          {"title": "Address", "text":"Lyndhurst, NJ, USA", "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"},
+          {"title": "Telephone", "text":"(201) 713 - 7691", "link":"tel:201-713-7691"},
+          {"title": "Email", "text": "Our email", "link":"mailto:a.rosario@meadowlandscf.com"}
         ]
       },
       "copyright":"Copyright © 2020 - Meadowlands Construction and Flips LLC.",
@@ -81,33 +85,37 @@
         {"page": "servicios", "link": "/services"},
         {"page": "contacto", "link": "/contact"}
       ],
+      "quote":{
+        "page": "Para Cotizar",
+        "link": "#"
+      },
       "headerdown": {
         "location":{
           "logo":"globe",
-          "topLine":"Newyork, USA",
-          "botLine":"Flat 201, Reynolds",
-          "link":"map"
+          "topLine":"Lyndhurst, NJ",
+          "botLine":"USA",
+          "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"
         },
         "hours":{
           "logo":"phone-alt",
-          "topLine":"324 123 4567",
-          "botLine":"Mon - Fri: 9 / 5",
-          "link":"tel:13241234567"
+          "topLine":"(201) 713 - 7691",
+          "botLine":"Mon - Fri: 9am / 5pm",
+          "link":"tel:201-713-7691"
         },
         "email":{
           "logo":"envelope",
-          "topLine":"support email",
-          "botLine":"Get in contact",
-          "link":"mailto:someone@example.com"
+          "topLine":"Correo de Soporte",
+          "botLine":"Contactanos",
+          "link":"mailto:a.rosario@meadowlandscf.com"
         },
         "social":{
           "facebook": {
             "logo": "facebook-square",
-            "link": ""
+            "link": "https://www.facebook.com/Meadowlands-Construction-Flip-103174734795876"
           },
           "instagram": {
             "logo": "instagram",
-            "link": ""
+            "link": "https://www.instagram.com/meadowlands_construction_flip/"
           },
           "linkedin": {
             "logo": "linkedin",
@@ -134,9 +142,9 @@
       "right":{
         "title":"información de contacto",
         "items":[
-          {"title": "Dirección", "text":"Newyork, USA Flat 201, Reynolds", "link":"map"},
-          {"title": "Telefono", "text":"123-123-1234", "link":"tel"},
-          {"title": "Email", "text": "emaislsld", "link":"mailto"}
+          {"title": "Dirección", "text":"Lyndhurst, NJ, USA", "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"},
+          {"title": "Telefono", "text":"(201) 713 - 7691", "link":"tel:201-713-7691"},
+          {"title": "Email", "text": "Our email", "link":"mailto:a.rosario@meadowlandscf.com"}
         ]
       },
       "copyright":"Copyright © 2020 - Meadowlands Construction and Flips LLC.",

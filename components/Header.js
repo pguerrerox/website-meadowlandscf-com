@@ -11,7 +11,7 @@ export default function Header(props) {
   return (
     <>
       <HeaderTop langChange={props.langChange} lang={props.lang} />
-      <HeaderNavbar data={props.data.navbar} />
+      <HeaderNavbar data={props.data.navbar} quote={props.data.quote} />
       <HeaderDown data={props.data.headerdown} />
     </>
   )

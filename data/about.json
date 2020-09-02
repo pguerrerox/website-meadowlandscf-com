@@ -30,24 +30,24 @@
   },
   "es": {
     "aboutus": {
-      "h1": "Quienes somos?",
+      "h2": "Quienes somos?",
       "p":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae ante velit. Phasellus at neque vitae orci tempus ultrices. Ut maximus iaculis auctor. Sed mollis vestibulum felis, et fermentum est pretium eget. Quisque varius non eros ut ultricies. In accumsan ex vitae nulla blandit, nec ullamcorper ligula porttitor. Nunc id nisi ut massa aliquet pretium nec sit amet tellus. Nam ultrices lacus eget aliquam aliquet. Nam posuere mollis dui, sed pharetra odio pulvinar eu. Quisque scelerisque leo vitae tincidunt semper. Curabitur lorem nisl, scelerisque vel tempus sed, iaculis euismod eros. Ut dictum elit quis lorem lacinia faucibus. Integer molestie ipsum ut sem convallis, id ornare sem fermentum.",
       "img": "about_stockhome",
       "imgAlt": "Remodelacion de casa, Antes y despues"
     },
     "values": {
-      "h1": "Our values",
+      "h2": "Nuestros valores",
       "div": [
         {
-          "h2": "Responsabilidad", 
+          "h4": "Responsabilidad", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         },
         {
-          "h2": "Excelencia", 
+          "h4": "Excelencia", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         },
         {
-          "h2": "Estabilidad", 
+          "h4": "Estabilidad", 
           "p":"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed efficitur quam ut convallis molestie. Aliquam nec."
         }
       ],

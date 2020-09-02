@@ -54,33 +54,33 @@ body{
 // Special media query styles
 // Extra small devices (576px and down)
 @media (max-width: 575px) {
-  .HeaderMid img{
-    width: 325px;
-  }
+  .HeaderMid img{width: 325px}
+  .Carrousel h1{font-size: 1.5rem}
+  .Carrousel h2{font-size: 1rem}
 }
 // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .HeaderMid img{
-    width: 325px;
-  }
+  .HeaderMid img{width: 325px}
+  .Carrousel h1{font-size: 2rem}
+  .Carrousel h2{font-size: 1.5rem}
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .HeaderMid img{
-    width: 325px;
-  }
+  .HeaderMid img{width: 325px}
+  .Carrousel h1{font-size: 2.5rem}
+  .Carrousel h2{font-size: 2rem}
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .HeaderMid img{
-    width: 350px;
-  }
+  .HeaderMid img{width: 325px}
+  .Carrousel h1{font-size: 3rem}
+  .Carrousel h2{font-size: 2.5rem}
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .HeaderMid img{
-    width: 375px;
-  }
+  .HeaderMid img{width: 325px}
+  .Carrousel h1{font-size: 4rem}
+  .Carrousel h2{font-size: 2.5rem}
 }
 
 @import "../node_modules//bootstrap/scss/bootstrap";
