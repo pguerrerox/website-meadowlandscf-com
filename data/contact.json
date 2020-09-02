@@ -39,9 +39,9 @@
           "title": "Via telephone, our number is:",
           "links":[
             {
-              "href":"tel:123-123-1234",
+              "href":"tel:201-713-7691",
               "title":"Call us at",
-              "text": "123-123-1234"
+              "text": "(201) 713 - 7691"
             }
           ]
         },
@@ -49,12 +49,12 @@
           "title": "Visiting our socialmedia:",
           "links":[
             {
-              "href":"#",
+              "href":"https://www.facebook.com/Meadowlands-Construction-Flip-103174734795876",
               "title":"Visit our Facebook Page",
               "text": "Facebook"
             },
             {
-              "href":"#",
+              "href":"https://www.instagram.com/meadowlands_construction_flip/",
               "title":"Visit our Instagram Page",
               "text": "Instagram"
             }
@@ -64,9 +64,9 @@
           "title": "Our working hours are:",
           "links":[
             {
-              "href":"#",
+              "href":"",
               "title":"Working Hours",
-              "text": "Monday / Friday: 9:00 am / 5:00 pm"
+              "text": "Monday - Friday: 9am - 5pm"
             }
           ]
         }
@@ -107,15 +107,15 @@
       }
     },
     "contact_text":{
-      "h3": "Get in touch with us using the following methods",
+      "h3": "Contactanos utilizando una de las siguientes vias",
       "content":[
         {
-          "title": "Via telephone, our number is:",
+          "title": "Via telefonica, nuestro numero es:",
           "links":[
             {
-              "href":"tel:123-123-1234",
-              "title":"Call us at",
-              "text": "123-123-1234"
+              "href":"tel:201-713-7691",
+              "title":"Llamanos a",
+              "text": "(201) 713 - 7691"
             }
           ]
         },
@@ -123,19 +123,19 @@
           "title": "Visiting our socialmedia:",
           "links":[
             {
-              "href":"#",
-              "title":"Visit our Facebook Page",
+              "href":"https://www.facebook.com/Meadowlands-Construction-Flip-103174734795876",
+              "title":"Visita nuestro Facebook",
               "text": "Facebook"
             },
             {
-              "href":"#",
-              "title":"Visit our Instagram Page",
+              "href":"https://www.instagram.com/meadowlands_construction_flip/",
+              "title":"Visita nuestro Instagram",
               "text": "Instagram"
             }
           ]
         },
         {
-          "title": "Our working hours are:",
+          "title": "Horas Laborales:",
           "links":[
             {
               "href":"#",
