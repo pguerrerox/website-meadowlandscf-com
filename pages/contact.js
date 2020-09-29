@@ -1,3 +1,6 @@
+// importing nextjs/API
+import Head from 'next/head';
+
 // importing node modules
 import fs from 'fs';
 import path from 'path';
@@ -16,6 +19,10 @@ export default function Contact(props) {
 
   return (
     <>
+    <Head>
+      <script src="https://www.google.com/recaptcha/api.js"></script>
+    </Head>
+
       <Contact_thanks data={data.thanks} />
       <div className='container'>
         <div className='row my-5'>

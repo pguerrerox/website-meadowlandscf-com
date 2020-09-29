@@ -10,10 +10,12 @@ class Contact_form extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
+      nombre: '',
       email: '',
-      subject: '',
-      message: ''
+      asunto: '',
+      mensaje: '',
+      statusShow: true,
+      statusMsg: null
     };
 
     // binding handlers
@@ -23,14 +25,39 @@ class Contact_form extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
+    const data = new FormData(e.target);
+
+    fetch('http://localhost:8081/contacto/meadowlands', {
+      method: 'POST',
+      body: data
+    })
+    .then( x => {
+      console.log(x)
+      this.setState(st => (
+        {
+          statusShow: true,
+          statusMsg: true
+        }
+      ))
+    })
+    .catch(e => {
+      this.setState(st => (
+        {
+          statusShow: true,
+          statusMsg: false
+        }
+      ))
+    })
+
     this.setState(st => (
       {
-        name: '',
+        nombre: '',
         email: '',
-        subject: '',
-        message: ''
+        asunto: '',
+        mensaje: ''
       }
     ))
+
     //handle submit, create the post request to staticmail...
   }
 
@@ -42,12 +69,18 @@ class Contact_form extends Component {
 
   render() {
     const data = this.props.data,
-      fields = this.props.data.fields;
+          fields = this.props.data.fields;
+    const referrer = 'http://meadowlandscf.com';
+
+    let displayNone = {display: "none"}
+    let displayAll = {display: ""}
 
     return (
       <section className='Contact_form col-lg-6'>
-        <div className='content row'>
-          <form className='col mx-4 my-4 px-5 py-4 bg-primary rounded' onSubmit={this.handleSubmit}>
+        <div className='content row text-center'>
+          <span className='p-3 text-center text-dark font-weight-bold' style={this.state.statusShow ? displayAll: displayNone}>{this.state.statusMsg ? data.status.success : data.status.fail}</span>
+          <form className='col mx-4 my-4 px-5 py-4 bg-primary rounded' style={this.state.statusShow ? displayNone: displayAll} onSubmit={this.handleSubmit}>
+          <input type="hidden" name="referrer" value={referrer}/>
             {
               Object.keys(fields).map((key, i) => {
                 let id = fields[key].id,
@@ -56,7 +89,7 @@ class Contact_form extends Component {
                 return (
                   <div className='form-group' key={i}>
                     <label className='text-secondary font-weight-bold' htmlFor={id}>{label + ":"}</label>
-                    <input className='form-control' type='text' id={id} name={id} placeholder={placeholder} value={this.state[id]} onChange={this.handleChange} />
+                    <input className='form-control' type='text' id={id} name={id} placeholder={placeholder} value={this.state[id]} onChange={this.handleChange} required />
                   </div>
                 )
               })
@@ -66,7 +99,7 @@ class Contact_form extends Component {
               <textarea rows="7" className='form-control' type='text' id={data.message.id} name={data.message.id} placeholder={data.message.placeholder} value={this.state[data.message.id]} onChange={this.handleChange} />
             </div>
             <div className='text-center'>
-              <button className='btn btn-secondary btn-lg w-100' type='submit'>{data.button.text}</button>
+          <button className='btn btn-secondary btn-lg w-100' type='submit'>{data.button.text}</button>
             </div>
           </form>
         </div>

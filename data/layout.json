@@ -14,15 +14,15 @@
       "headerdown": {
         "location":{
           "logo":"globe",
-          "topLine":"Lyndhurst, NJ",
+          "topLine":"Ridgefield, NJ",
           "botLine":"USA",
-          "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"
+          "link":"https://goo.gl/maps/1s3Kq9VC8bgFqyCv8"
         },
         "hours":{
           "logo":"phone-alt",
-          "topLine":"(201) 713 - 7691",
+          "topLine":"1 (201) 713-7691",
           "botLine":"Mon - Fri: 9am / 5pm",
-          "link":"tel:201-713-7691"
+          "link":"tel:1 201-713-7691"
         },
         "email":{
           "logo":"envelope",
@@ -64,8 +64,8 @@
       "right":{
         "title":"Contact Information",
         "items":[
-          {"title": "Address", "text":"Lyndhurst, NJ, USA", "link":"https://goo.gl/maps/De9qdWx3Lz7JdU8j7"},
-          {"title": "Telephone", "text":"(201) 713 - 7691", "link":"tel:201-713-7691"},
+          {"title": "Address", "text":"Ridgefield, NJ, USA", "link":"https://goo.gl/maps/1s3Kq9VC8bgFqyCv8"},
+          {"title": "Telephone", "text":"1 (201) 713-7691", "link":"tel:1 201-713-7691"},
           {"title": "Email", "text": "Our email", "link":"mailto:a.rosario@meadowlandscf.com"}
         ]
       },

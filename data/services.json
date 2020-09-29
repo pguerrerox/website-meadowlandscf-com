@@ -1,85 +1,62 @@
 {
   "en": {
     "h1": "Our Services",
-    "services": [
-      {
-        "title":"Roofing and Repair",
-        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        "img":"roofing",
-        "altText": "House Roof"
-      },
-      {
-        "title":"Kitchen Remodeling",
-        "content":"This card has supporting text below as a natural lead-in to additional content.",
-        "img":"kitchens",
-        "altText": "House Kitchen"
-      },
-      {
-        "title":"Bathroom Remodeling",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"bathrooms",
-        "altText": "House Bathroom"
-      },
-      {
-        "title":"Painting Interior and Exterior",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"painting",
-        "altText": "House Interiors"
-      },
-      {
-        "title":"Masonry",
-        "content":"This card has supporting text below as a natural lead-in to additional content.",
-        "img":"masonry",
-        "altText": "Masonry in House"
-      },
-      {
-        "title":"Renovations in General",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"siding",
-        "altText": "House Renovarions"
-      }
+    "services":[
+      {"serviceText":"electrical", "icon":"electrical"},
+      {"serviceText":"plumbing", "icon":"plumbing"},
+      {"serviceText":"kitchens", "icon":"kitchens"},
+      {"serviceText":"bathrooms", "icon":"bathrooms"},
+      {"serviceText":"basements", "icon":"basements"},
+      {"serviceText":"drywall", "icon":"drywall"},
+      {"serviceText":"floors", "icon":"floors"},
+      {"serviceText":"painting", "icon":"painting"},
+      {"serviceText":"masonry", "icon":"masonry"},
+      {"serviceText":"tiles", "icon":"tiles"},
+      {"serviceText":"decks", "icon":"decks"},
+      {"serviceText":"extensions", "icon":"extensions"},
+      {"serviceText":"garage", "icon":"garage"},
+      {"serviceText":"siding", "icon":"siding"},
+      {"serviceText":"roofing", "icon":"roofing"},
+      {"serviceText":"windows", "icon":"windows"},
+      {"serviceText":"sidewalks", "icon":"sidewalks"},
+      {"serviceText":"welding", "icon":"welding"},
+      {"serviceText":"carpentry", "icon":"carpentry"},
+      {"serviceText":"marble", "icon":"marble"},
+      {"serviceText":"structural_repairs", "icon":"structural_repairs"},
+      {"serviceText":"brickwork", "icon":"brickwork"},
+      {"serviceText":"concrete", "icon":"concrete"},
+      {"serviceText":"renovation", "icon":"renovation"},
+      {"serviceText":"maintenance", "icon":"maintenance"}
     ]
   },
   "es":{
     "h1": "Nuestros Servicios",
-    "services": [
-      {
-        "title":"Roofing and Repair",
-        "content":"This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        "img":"roofing",
-        "altText": "House Roof"
-      },
-      {
-        "title":"Kitchen Remodeling",
-        "content":"This card has supporting text below as a natural lead-in to additional content.",
-        "img":"kitchens",
-        "altText": "House Kitchen"
-      },
-      {
-        "title":"Bathroom Remodeling",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"bathrooms",
-        "altText": "House Bathroom"
-      },
-      {
-        "title":"Painting Interior and Exterior",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"painting",
-        "altText": "House Interiors"
-      },
-      {
-        "title":"Masonry",
-        "content":"This card has supporting text below as a natural lead-in to additional content.",
-        "img":"masonry",
-        "altText": "Masonry in House"
-      },
-      {
-        "title":"Renovations in General",
-        "content":"This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.",
-        "img":"siding",
-        "altText": "House Renovarions"
-      }
+    "services":[
+      {"serviceText":"eléctrico", "icon":"electrical"},
+      {"serviceText":"plomería", "icon":"plumbing"},
+      {"serviceText":"cocinas", "icon":"kitchens"},
+      {"serviceText":"baños", "icon":"bathrooms"},
+      {"serviceText":"sotanos", "icon":"basements"},
+      {"serviceText":"paredes", "icon":"drywall"},
+      {"serviceText":"pisos", "icon":"floors"},
+      {"serviceText":"pinturas", "icon":"painting"},
+      {"serviceText":"ladrillos", "icon":"masonry"},
+      {"serviceText":"losas", "icon":"tiles"},
+      {"serviceText":"cubiertas", "icon":"decks"},
+      {"serviceText":"extension", "icon":"extensions"},
+      {"serviceText":"garage", "icon":"garage"},
+      {"serviceText":"siding", "icon":"siding"},
+      {"serviceText":"techos", "icon":"roofing"},
+      {"serviceText":"ventanas", "icon":"windows"},
+      {"serviceText":"aceras", "icon":"sidewalks"},
+      {"serviceText":"soldadura", "icon":"welding"},
+      {"serviceText":"carpinteria", "icon":"carpentry"},
+      {"serviceText":"marmol", "icon":"marble"},
+      {"serviceText":"reparación estructural", "icon":"structural_repairs"},
+      {"serviceText":"brickwork", "icon":"brickwork"},
+      {"serviceText":"concreto", "icon":"concrete"},
+      {"serviceText":"renovación", "icon":"renovation"},
+      {"serviceText":"mantenimiento", "icon":"maintenance"}
     ]
-
   }
 }

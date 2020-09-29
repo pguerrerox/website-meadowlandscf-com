@@ -6,7 +6,10 @@
     "link": "visit my website",
     "href": "https://elizabethperaltaderosario.exprealty.com/agents/216566/Elizabeth+Peralta+De+Rosario",
     "image": "realtor",
-    "altImg": "Portrait of Realtor"
+    "altImg": "Portrait of Realtor",
+    "phoneText": "Call Me!",
+    "phoneNumber": "tel:201-687-2697"
+
   },
   "es":{
     "h3": "our realtor",
@@ -15,6 +18,8 @@
     "link": "visit my website",
     "href": "https://elizabethperaltaderosario.exprealty.com/agents/216566/Elizabeth+Peralta+De+Rosario",
     "image": "realtor",
-    "altImg": "Portrait of Realtor"
+    "altImg": "Portrait of Realtor",
+    "phoneText": "Llamame!",
+    "phoneNumber": "tel:201-687-2697"
   }
 }

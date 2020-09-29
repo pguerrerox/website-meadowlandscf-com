@@ -8,7 +8,7 @@
     "form":{
       "fields":{
         "name": {
-          "id": "name",
+          "id": "nombre",
           "label": "Name",
           "placeholder": " John Doe"
         },
@@ -18,18 +18,22 @@
           "placeholder": "johndoe@example.com"
         },
         "subject": {
-          "id": "subject",
+          "id": "asunto",
           "label": "Subject",
           "placeholder": "Information Request"
         }
       },
       "message": {
-        "id": "message",
+        "id": "mensaje",
         "label": "Message",
         "placeholder": "your message here"
       },
       "button": {
         "text": "Submit"
+      },
+      "status":{
+        "success":"Message sended Successfully!",
+        "fail":"An error occurred, try again later."
       }
     },
     "contact_text":{
@@ -82,7 +86,7 @@
     "form":{
       "fields":{
         "name": {
-          "id": "name",
+          "id": "nombre",
           "label": "Name",
           "placeholder": " John Doe"
         },
@@ -92,18 +96,22 @@
           "placeholder": "johndoe@example.com"
         },
         "subject": {
-          "id": "subject",
+          "id": "asunto",
           "label": "Subject",
           "placeholder": "Information Request"
         }
       },
       "message": {
-        "id": "message",
+        "id": "mensaje",
         "label": "Message",
         "placeholder": "your message here"
       },
       "button": {
         "text": "Submit"
+      },
+      "status":{
+        "success":"Mensaje enviado exitosamente!",
+        "fail":"Ocurrio un error, por favor intentar mas tarde."
       }
     },
     "contact_text":{
