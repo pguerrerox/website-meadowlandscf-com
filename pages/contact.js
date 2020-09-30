@@ -20,7 +20,7 @@ export default function Contact(props) {
   return (
     <>
     <Head>
-      <script src="https://www.google.com/recaptcha/api.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </Head>
 
       <Contact_thanks data={data.thanks} />

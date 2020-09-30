@@ -10,23 +10,27 @@
         "name": {
           "id": "nombre",
           "label": "Name",
-          "placeholder": " John Doe"
+          "placeholder": " John Doe",
+          "type":"text"
         },
         "email": {
           "id": "email",
           "label": "Email",
-          "placeholder": "johndoe@example.com"
+          "placeholder": "johndoe@example.com",
+          "type":"email"
         },
         "subject": {
           "id": "asunto",
           "label": "Subject",
-          "placeholder": "Information Request"
+          "placeholder": "Information Request",
+          "type":"text"
         }
       },
       "message": {
         "id": "mensaje",
         "label": "Message",
-        "placeholder": "your message here"
+        "placeholder": "your message here",
+        "type":"text"
       },
       "button": {
         "text": "Submit"
@@ -87,27 +91,31 @@
       "fields":{
         "name": {
           "id": "nombre",
-          "label": "Name",
-          "placeholder": " John Doe"
+          "label": "Nombre",
+          "placeholder": " Juan Rodriguez",
+          "type":"text"
         },
         "email": {
           "id": "email",
           "label": "Email",
-          "placeholder": "johndoe@example.com"
+          "placeholder": "juanrodriguez@ejemplo.com",
+          "type":"email"
         },
         "subject": {
           "id": "asunto",
-          "label": "Subject",
-          "placeholder": "Information Request"
+          "label": "Asunto",
+          "placeholder": "Solicitud de Informacion",
+          "type":"text"
         }
       },
       "message": {
         "id": "mensaje",
-        "label": "Message",
-        "placeholder": "your message here"
+        "label": "Mensaje",
+        "placeholder": "su mensaje aqui",
+        "type": "text"
       },
       "button": {
-        "text": "Submit"
+        "text": "Enviar"
       },
       "status":{
         "success":"Mensaje enviado exitosamente!",
