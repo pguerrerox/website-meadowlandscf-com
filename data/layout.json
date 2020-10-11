@@ -9,7 +9,7 @@
       ],
       "quote":{
         "page": "Get a Quote",
-        "link": "#"
+        "link": "/contact/#form"
       },
       "headerdown": {
         "location":{
@@ -39,9 +39,9 @@
             "logo": "instagram",
             "link": "https://www.instagram.com/meadowlands_construction_flip/"
           },
-          "linkedin": {
-            "logo": "linkedin",
-            "link": ""
+          "twitter": {
+            "logo": "twitter",
+            "link": "https://twitter.com/albertor3"
           }
         }
       }

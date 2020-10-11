@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 if there is a social prop, the component will display social app logos with links */
 export default function HeaderContactCard(props) {
   const contactData = props.data[props.type]
-  const socialIcons = ['facebook', 'instagram']
+  const socialIcons = ['facebook', 'instagram', 'twitter']
   const social = props.data['social'];
 
   const iconStyle = {
