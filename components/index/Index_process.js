@@ -28,7 +28,7 @@ export default function Index_process(props) {
                       <div className='text-light font-weight-bold'>{index + 1}</div>
                     </div>
                     <h4 className='text-center mb-4'>{item.h4}</h4>
-                    <p className='text-center'>{item.p}</p>
+                    {/* <p className='text-center'>{item.p}</p> */}
                   </div>
                 </div>
               )

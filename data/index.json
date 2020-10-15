@@ -27,8 +27,8 @@
       },
       {
         "image":"sala",
-        "caption": "More than renovations",
-        "subcaption": "We got you cover",
+        "caption": "Something new and different",
+        "subcaption": "We help create ideas according to your budget",
         "alt": "cocina"
       },
       {
@@ -41,55 +41,43 @@
     "bannerabout": {
       "header": "a bit about us",
       "leftColumn": {
-        "h2":"We are the expart on this field better solution since 1984",
-        "p":"We are committed to building sustainable future by fostering a collaborative spirit that creates exceptional experiences, balanced relationships, and community built environment. Building isn'a just job. It's our passion. With every project we undertake, we set the bar high and provide the best industry.",
+        "h2":"Construction with the highest quality standards",
+        "p":"Our experience in construction allows us to guarantee our work with the highest quality standards and compliance with environmental regulations. We are committed to transform the ideas of our clients into reality, according to their budget and needs. For us the most important are our clients and their satisfaction.",
         "button":"more about us",
         "link": "/about"
       },
       "rightColumn": [
         {
           "img":"industry",
-          "h4":"Professional Liability",
-          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+          "h4":"Professionalism",
+          "p":"We develop the ideas of our clients with commitment, efficiency and dedication in each of our projects."
         },
         {
           "img":"user-cog",
-          "h4":"Dedicated To Our Clients",
-          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+          "h4":"Responsibility",
+          "p":"On-time delivery of completed."
         },
         {
           "img":"cogs",
-          "h4":"Outstanding Services",
-          "p":"We are committed to building a sustainable future by fostering a collaborative spirit."
+          "h4":"Quality",
+          "p":"The satisfaction of our customers is our best guarantee; therefore always attached to the highest standards, to meet the requirements for each project."
         }
       ] 
     },
     "bannerprocess":{
       "header":"our process",
       "steps":[
-        {
-          "h4": "Planning & Research",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Design & Ideas",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Specialized Projects",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Final Outputs",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        }
+        {"h4": "Planning & Research"},
+        {"h4": "Design & Ideas"},
+        {"h4": "Specialized Projects"},
+        {"h4": "Final Outputs"}
       ]
     },
     "bannerservices":{
       "header":"our services",
       "image": "content-1",
       "h4": "We offer the most complete package!",
-      "p": "We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
+      "p": "Find the solution to all your We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit. We are committed to building a sustainable future by fostering a collaborative spirit.",
       "button": "explore our services"
     }
   },
@@ -121,8 +109,8 @@
       },
       {
         "image":"sala",
-        "caption": "Mas que renovaciones",
-        "subcaption": "Lo tenemos cubierto",
+        "caption": "Algo nuevo and diferente",
+        "subcaption": "Ayudamos a crear ideas acorde a tu presupuesto",
         "alt": "cocina"
       },
       {
@@ -135,48 +123,36 @@
     "bannerabout": {
       "header": "un poco sobre nosotros",
       "leftColumn": {
-        "h2":"Somos la mejor solución en este campo desde 1984",
-        "p":"Estamos comprometidos a construir un futuro sostenible fomentando un espíritu de colaboración que cree experiencias excepcionales, relaciones equilibradas y un entorno construido por la comunidad. Construir no es solo un trabajo. Es nuestra pasion. Con cada proyecto que emprendemos, ponemos el listón alto y ofrecemos la mejor industria.",
+        "h2":"Construcción con los más altos estándares de calidad",
+        "p":"Nuestra experiencia en la construcción nos permite garantizar nuestro trabajo con los más altos estándares de calidad y cumplimiento de la normativa ambiental. Estamos comprometidos en transformar las ideas de nuestros clientes en realidad, de acuerdo a su presupuesto y necesidades. Para nosotros lo más importante son nuestros clientes y su satisfacción.",
         "button":"mas sobre nosotros",
         "link": "/about"
       },
       "rightColumn": [
         {
           "img":"industry",
-          "h4":"Responsabilidad profesional",
-          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+          "h4":"Profesionalismo",
+          "p":"Desarrollamos las ideas de nuestros clientes con compromiso, eficiencia y entrega en cada uno de nuestros proyectos."
         },
         {
           "img":"user-cog",
-          "h4":"Dedicado a nuestros clientes",
-          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+          "h4":"Responsabilidad",
+          "p":"Entrega a tiempo de los proyectos contratados."
         },
         {
           "img":"cogs",
-          "h4":"Servicios sobresalientes",
-          "p":"Nos comprometemos a construir un futuro sostenible fomentando un espíritu de colaboración."
+          "h4":"Calidad",
+          "p":"La satisfacción de nuestros clientes es nuestra mejor garantía; por eso siempre apegados a los más altos estándares, para cumplir con los requisitos requeridos para cada proyecto."
         }
       ] 
     },
     "bannerprocess":{
       "header":"nuestro proceso",
       "steps":[
-        {
-          "h4": "Planificacion e Investigacion",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Diseño e Ideas",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Proyectos Especializados",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        },
-        {
-          "h4": "Entregables finales",
-          "p": "We are committed to building a sustainable future by fostering a collaborative spirit."
-        }
+        {"h4": "Planificacion e Investigacion"},
+        {"h4": "Diseño e Ideas"},
+        {"h4": "Proyectos Especializados"},
+        {"h4": "Entregables finales"}
       ]
     },
     "bannerservices":{

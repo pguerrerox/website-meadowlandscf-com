@@ -16,6 +16,9 @@ export default function Index_services(props) {
           <div className='col-lg-6 my-4 d-flex flex-column justify-content-center align-items-center'>
             <h4 className='m-0'>{data.h4}</h4>
             <p className='my-5'>{data.p}</p>
+            <ul>
+              
+            </ul>
             <Link href='/services'>
               <a className='btn btn-lg btn-primary font-weight-bold text-uppercase '>{data.button}</a>
             </Link>
