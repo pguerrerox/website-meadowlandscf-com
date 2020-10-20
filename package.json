@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "deploy:GH_PAGES": "next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"meadowlandscf.com\" >> out/CNAME && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
