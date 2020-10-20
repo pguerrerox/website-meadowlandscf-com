@@ -27,11 +27,12 @@ export default function HeaderNavbar(props) {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div className='navbar-nav d-flex justify-content-end  align-items-center font-nexa'>
                 {menuItems.map((item, index) => <Link href={item.link} key={index}><a className='text-capitalize nav-link mx-2'>{item.page}</a></Link>)}
-                <button type="button" className="btn btn-primary btn-md btn-sm mx-3" data-toggle="modal" data-target="#exampleModal">{quote.page}</button>
+                <button type="button" className="btn btn-primary btn-md btn-sm mx-3" data-toggle="modal" data-target="#formModal">{quote.page}</button>
               </div>
             </div>
           </nav>
         </div>
+        {/* {"page": "about", "link": "/about"}, */}
       </section>
 
       <style jsx>{`

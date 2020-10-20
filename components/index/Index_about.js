@@ -9,7 +9,8 @@ export default function Index_about(props) {
   const data = props.data;
 
   const iconStyle = {
-    width: '100px',
+    width: '90px',
+    height: '90px',
     color: '#40a7ea'
   }
 
@@ -30,9 +31,9 @@ export default function Index_about(props) {
               data.rightColumn.map((item, i) => {
                 return (
                   // console.log(item.img);
-                  <div className='d-flex my-3' key={i}>
+                  <div className='d-flex flex-row align-items-center my-3' key={i}>
                     <FontAwesomeIcon icon={item.img} style={iconStyle} />
-                    <div className='ml-4'>
+                    <div className='flex-grow w-100 ml-4'>
                       <h4>{item.h4}</h4>
                       <p>{item.p}</p>
                     </div>

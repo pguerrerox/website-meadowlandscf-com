@@ -4,13 +4,16 @@ import Head from 'next/head';
 // importing components
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Contact_form from '../components/contact/Contact_form';
 
 // importing custom bootstrap
 import "../styles/custom.scss";
 
 export default function LayoutDefault(props) {
   const defaultTitle = 'Meadowlands Construction & Flip';
-  const pageTitle = props.children.type.name;
+  const pageTitle = props.children.props.title;
+  const modalData = props.data[props.lang].modal;
+  const formData = props.formData[props.lang].form;
 
   return (
     <>
@@ -38,6 +41,26 @@ export default function LayoutDefault(props) {
 
       <Header data={props.data[props.lang].header} lang={props.lang} langChange={props.langChange} />
       {props.children}
+      
+      <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">{modalData.title}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">X</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <Contact_form data={formData} width={true} />
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">{modalData.btnClose}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer data={props.data[props.lang].footer} />
 
       {/* bootstrap scripts */}

@@ -48,17 +48,17 @@
       },
       "rightColumn": [
         {
-          "img":"industry",
+          "img":"user-tie",
           "h4":"Professionalism",
           "p":"We develop the ideas of our clients with commitment, efficiency and dedication in each of our projects."
         },
         {
-          "img":"user-cog",
+          "img":"business-time",
           "h4":"Responsibility",
           "p":"On-time delivery of completed."
         },
         {
-          "img":"cogs",
+          "img":"certificate",
           "h4":"Quality",
           "p":"The satisfaction of our customers is our best guarantee; therefore always attached to the highest standards, to meet the requirements for each project."
         }

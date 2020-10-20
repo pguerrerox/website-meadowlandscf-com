@@ -3,7 +3,6 @@
     "header":{
       "navbar": [
         {"page": "home", "link": "/"},
-        {"page": "about", "link": "/about"},
         {"page": "services", "link": "/services"},
         {"page": "contact", "link": "/contact"}
       ],
@@ -75,6 +74,10 @@
         "dos": "Duramente Web Studio",
         "link": "https://duramente.com"
       }
+    },
+    "modal":{
+      "title":"Contact Form",
+      "btnClose":"Close"
     }
   },
   "es": {
@@ -153,6 +156,10 @@
         "dos": "Duramente Web Studio",
         "link": "https://duramente.com"
       }
+    },
+    "modal":{
+      "title":"Formulario de Contacto",
+      "btnClose":"Cerrar"
     }
   }
 }

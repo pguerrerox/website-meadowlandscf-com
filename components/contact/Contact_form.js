@@ -66,7 +66,8 @@ class Contact_form extends Component {
 
   render() {
     const data = this.props.data,
-          fields = this.props.data.fields;
+          fields = this.props.data.fields,
+          width = this.props.width;
     const referrer = 'http://meadowlandscf.com';
 
     let displayNone = {display: "none"}
@@ -75,7 +76,7 @@ class Contact_form extends Component {
     let statusError = 'text-danger'
 
     return (
-      <section className='Contact_form col-lg-6'>
+      <section className={width?'Contact_form col-lg-12':'Contact_form col-lg-6'} id='form'>
         <div className='content row'>
           <span className={(this.state.statusMsg ? statusGood : statusError) +' p-3 text-center font-weight-bold w-100 h-100 display-4'} style={this.state.statusShow ? displayAll: displayNone}>{this.state.statusMsg ? data.status.success : data.status.fail}</span>
           <form className='col mx-4 my-4 px-5 py-4 bg-primary rounded' style={this.state.statusShow ? displayNone: displayAll} action="?" method="POST" onSubmit={this.handleSubmit}>

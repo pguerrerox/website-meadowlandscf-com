@@ -20,17 +20,17 @@ p, span {
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  src: url('~/assets/fonts/open_sans_regular.ttf') format('truetype');
+  src: url('/assets/fonts/open_sans_regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: 600;
-  src: url('~/assets/fonts/open_sans_semibold.ttf') format('truetype');
+  src: url('/assets/fonts/open_sans_semibold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Nexa Rust Sans';
   font-style: 600;
-  src: url('~/assets/fonts/nexa_rust_sans_black.otf') format('opentype');
+  src: url('/assets/fonts/nexa_rust_sans_black.otf') format('opentype');
 }
 
 %font-nexa { font-family: 'Nexa Rust Sans' !important}

@@ -31,9 +31,13 @@ class MyApp extends App {
     const basepath = path.join(process.cwd(), 'data');
     const filepath = path.join(basepath, 'layout.json');
     const layoutData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+    
+    const filepathContact = path.join(basepath, 'contact.json');
+    const contactFormData = JSON.parse(fs.readFileSync(filepathContact, 'utf-8'));
 
     return {
-      layoutData
+      layoutData,
+      contactFormData
     }
   }
 
@@ -49,9 +53,10 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     const state = this.state;
     const layoutData = this.props.layoutData;
+    const contactFormData = this.props.contactFormData;
 
     return (
-      <Layout data={layoutData} lang={state.language} langChange={this.langChange}>
+      <Layout data={layoutData} formData={contactFormData}  lang={state.language} langChange={this.langChange}>
         <Component {...pageProps} lang={state.language} />
       </Layout>
     )

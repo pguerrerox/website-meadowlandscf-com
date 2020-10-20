@@ -40,6 +40,7 @@ export async function getStaticProps() {
 
   return {
     props: {
+      title: "Home",
       data,
       realtor
     }

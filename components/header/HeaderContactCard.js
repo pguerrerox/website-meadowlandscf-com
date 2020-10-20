@@ -11,7 +11,8 @@ export default function HeaderContactCard(props) {
   const social = props.data['social'];
 
   const iconStyle = {
-    width: '45px',
+    width: '40px',
+    height: 'auto'
   }
 
   return (

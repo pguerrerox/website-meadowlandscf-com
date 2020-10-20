@@ -67,6 +67,7 @@ export async function getStaticProps() {
 
   return {
     props: {
+      title:"Services",
       data
     }
   }

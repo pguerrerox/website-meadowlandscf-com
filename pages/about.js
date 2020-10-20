@@ -28,6 +28,7 @@ export async function getStaticProps() {
 
   return {
     props: {
+      title:"About",
       data
     }
   }
