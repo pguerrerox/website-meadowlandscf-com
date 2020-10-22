@@ -23,7 +23,7 @@ export default function Index_about(props) {
             <h2>{data.leftColumn.h2}</h2>
             <p className='my-xl-5 my-lg-5'>{data.leftColumn.p}</p>
             <Link href={data.leftColumn.link}>
-              <a className='btn btn-primary btn-lg w-50 text-uppercase font-weight-bold'>{data.leftColumn.button}</a>
+              <a className='btn btn-primary btn-lg w-50 text-uppercase font-weight-bold disabled'>{data.leftColumn.button}</a>
             </Link>
           </div>
           <div className='col-xl-5 my-xl-0 mt-4'>
