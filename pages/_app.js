@@ -14,6 +14,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 // importing layout component
 import Layout from '../layouts/LayoutDefault';
 
+// importing global CSS
+import "../styles/custom.scss";
+
 library.add(fas, fab);
 
 class MyApp extends App {
@@ -64,11 +67,3 @@ class MyApp extends App {
 }
 
 export default MyApp;
-
-// compiling page on build
-// export async function getStaticPath(){
-//   const staticPath = {
-//     paths: ['/about', '/services'],
-//     fallback: false
-//   }
-// }
